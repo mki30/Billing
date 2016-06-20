@@ -1,0 +1,17 @@
+c:\Developement\Billing\bin\Release\BillingSoft.exe.config
+c:\Developement\Billing\bin\Release\BillingSoft.exe.manifest
+c:\Developement\Billing\bin\Release\BillingSoft.application
+c:\Developement\Billing\bin\Release\BillingSoft.exe
+c:\Developement\Billing\bin\Release\BillingSoft.pdb
+c:\Developement\Billing\bin\Release\BillingLib.dll
+c:\Developement\Billing\bin\Release\BillingLib.pdb
+c:\Developement\Billing\obj\Release\Billing.csprojResolveAssemblyReference.cache
+c:\Developement\Billing\obj\Release\BillingSoft.frmBilling.resources
+c:\Developement\Billing\obj\Release\BillingSoft.frmLogin.resources
+c:\Developement\Billing\obj\Release\BillingSoft.Properties.Resources.resources
+c:\Developement\Billing\obj\Release\Billing.csproj.GenerateResource.Cache
+c:\Developement\Billing\obj\Release\BillingSoft.TrustInfo.xml
+c:\Developement\Billing\obj\Release\BillingSoft.exe.manifest
+c:\Developement\Billing\obj\Release\BillingSoft.application
+c:\Developement\Billing\obj\Release\BillingSoft.exe
+c:\Developement\Billing\obj\Release\BillingSoft.pdb

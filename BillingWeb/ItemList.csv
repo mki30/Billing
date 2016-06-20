@@ -1,0 +1,951 @@
+101,R CH BROILER 1 KG                                 ,220
+102,R CH TANDOORI 1PIC EACH                           ,200
+103,R CH FULL LEG 1KG                                 ,315
+104,R CH BREST 1 KG                                   ,280
+105,R CH DRUMSTIC  1KG                                ,280
+106,R CH LIVER 1 KG                                   ,180
+107,R CH WINGS 1 KG                                   ,270
+108,R CH BONLES 1 KG                                  ,300
+109,R CH MINCE 1 KG                                   ,300
+110,R CH LEG/BREAST 1KG                               ,320
+111,R CH THAI BONLESS 1 KG                            ,380
+112,R CH SKIN 1 KG                                    ,200
+113,R CH BT 1 KG                                      ,150
+114,R TURKEY  1 PC                                    ,500
+115,R QUAIL  1 PC                                     ,195
+116,CH NECK  1 KG                                     ,140
+117,R CH COUNTRY  1KG.                                ,875
+201,R MUTTON MIX 1 KG                                 ,480
+202,R MUTTON PORTION 1KG                              ,480
+203,R MUTTON  LIVER/GURDA 1 KG                        ,480
+204,R MUTTON MINCE 1 KG                               ,480
+205,R MUTTON BRAIN 1 PCS                              ,70
+206,R MUTTON PAYA                                     ,70
+207,R MUTTON BONLESS 1 KG                             ,650
+208,R MUTTON PALLA 1 KG                               ,440
+211,R MUTTON HAND MINC  1KG                           ,700
+301,R FISH SINGHARA 1KG                               ,600
+302,R FISH SOLE 1KG                                   ,900
+303,R FISH SURMAI 1KG                                 ,900
+304,R FISH BHETKI 1KG                                 ,550
+305,R FISH POMFRETTE (WHOLE) EACH 1 PCS               ,250
+306,R FISH RAHU 1KG                                   ,250
+307,R FISH SURMAI WHOLE 1KG                           ,700
+308,R FISH HILSA 1 KG                                 ,700
+309,R FISH POMFRETT. MASALA 1 PC                      ,300
+310,R  FISH KATLA 1 KG                                ,300
+311,R FISH BASA SOLE 1 KG                             ,500
+312,R FISH TROUT 1 KG                                 ,700
+313,R FISH SALMON 1 KG                                ,650
+314,R FISH TUNA 1 KG                                  ,450
+315,R FISH MACKERAL 1 KG                              ,350
+316,R FISH BLACK POMFRETTE  1 KG                      ,650
+401,PRAWNS MEDIUM 1 KG                                ,800
+402,PRAWNS  SMALL 1 KG                                ,700
+404,CRAB BODY MEAT 1KG                                ,800
+405,PP TINY PRAWNS 1KG                                ,650
+406,LARGE PRAWNS 1 KG                                 ,900
+501,PP CHICKEN SHAMMI KEBAB 1KG                       ,470
+502,CHICKEN KOFTA 1KG                                 ,450
+503,CHICKEN MOMOS 1KG                                 ,440
+504,CHICKEN MASALA TIKKA 1KG                          ,530
+505,CHICKEN MASALA TANGRI 1KG                         ,330
+506,CHICKEN MALAI TIKKA 1KG                           ,530
+507,CHICKEN HARYALI TIKKA 1KG                         ,530
+508,CH BREADED BURGER PATTIE EACH                     ,45
+509,CH ITALLIAN COCKTAIL SAUSAGE 1KG                  ,440
+510,CHICKEN SPICY SAUSAGE 1KG                         ,440
+511,PP CHICKEN N CHEESE BALL  1KG                     ,600
+512,PP CH NUGGETS 1 KG                                ,550
+513,PP CH FINGER 1KG                                  ,500
+514,PP CH PLAIN SAUSAGE 1 KG                          ,575
+515,PP  BLACK PAPER SAUSAGE  1 KG                     ,550
+517,PP  BREAKFAST SAUSAGES 1 KG                       ,500
+518,PP  CH  FRANK  1 KG                               ,550
+519,PP R COCKTAIL SAUSAGE 1 KG                        ,600
+524,PP  CRISPY CH PATTY 1 PC NO SALEEE                ,45
+525,CHICKEN SAMOSA 1 KG                               ,450
+526,PP  CH GREEN CHILLY SALAMI 1 KG                   ,500
+527,PPD  CHICKEN DIMSIM 1 KG                          ,490
+528,PPD VEG DIMSUM  1 KG                              ,350
+529,NO SALLLLLLLLLLLLLLEEEEEE                         ,575
+601,MUTTON SHAMMI KEBAB (SPL) 1KG                     ,460
+602,MUTTON KOFTA 1KG                                  ,460
+603,MUTTON TIKKA MASALA 1KG                           ,630
+702,FISH AMRITSARI 1KG                                ,750
+703,FISH MARINAT  MASALA 1 KG                         ,950
+704,PP FISH BITE 1 KG                                 ,650
+705,PP FISH NUGGET 1 KG                               ,650
+706,PP GARLIC PRAWNS 1 KG                             ,800
+707,PP FISH PATTY 1 PC                                ,50
+801,PORK MASALA SAUSAGE 1KG                           ,440
+802,PORK MASALA CHOP 1KG                              ,350
+901,PP VEG SOYA SHAMI KABAB 1 KG                      ,450
+902,PP VEG SOYA SEEK KABAB 1 KG                       ,450
+1001,CHICKEN SEEKH KEBAB (SPL) 1KG                     ,490
+1002,CHICKEN RAINBOW SEEKH 1KG                         ,490
+1003,CHICKEN MALAI SEEKH 1KG                           ,490
+1004,CHICKEN ANGARA SEEKH 1KG                          ,490
+1005,CHICKEN KAKORI SEEKH 1KG                          ,490
+1006,CH RO MASALA TIKKA 1KG                            ,540
+1007,CH RO MALAI TIKKA 1KG                             ,565
+1008,CH RO MASALA TANGARI 1KG                          ,400
+1009,CHICKEN LOLLY POP 1KG                             ,390
+1010,CH DRUMS OF HEAVEN 1KG                            ,350
+1011,CH ONION KEBAB 1KG                                ,450
+1012,CHICKEN ORLEY 1KG                                 ,450
+1013,CHILLY CHICKEN 1KG                                ,450
+1014,CHICKEN PEPPER 1KG                                ,450
+1015,CHICKEN GARLIC 1KG                                ,450
+1016,PP CHICKEN SMOKE SAUSAGE  1KG                     ,600
+1017,CHICKEN FRANKFURTER 1KG                           ,450
+1018,CHICKEN HOTDOG 1KG                                ,450
+1020,CH MINT KABAB 1 KG                                ,600
+1021,CH RO HARYALI TIKKA 1 KG                          ,540
+1022,RO CH TANDOORI BREST 1 KG                         ,610
+1023,RO CH SMOKED BREST 1 KG                           ,610
+1024,RO CH SPICY BREST 1 KG                            ,610
+1025,RO CH ZESTY BREST 1 KG                            ,610
+1026,CH STEAM KABAB 1 KG                               ,480
+1027,CH LEMON& MINT KABAB 1 KG                         ,490
+1028,PP CH SN. TANDOORI KABAB 1 KG                     ,490
+1029,PP CH SN. ACHARI KABAB 1 KG                       ,490
+1101,MUTTON SEEKH KEBAB (SPL) 1KG                      ,500
+1102,MUTTON MASALA SEEKH KEBAB 1KG                     ,500
+1103,HOT MUTTON SEEK KABAB 1 KG                        ,500
+1201,FISH ORLEY 1KG                                    ,650
+1202,PP ELEGANT FISH TIKKA 1 KG                        ,780
+1301,PP     CHILLY    PANEER  1KG                      ,400
+1302,HARA KEBAB 1KG                                    ,350
+1303,VEG HARA BHARA KABAB 1 KG                         ,399
+1304,VEG THAI SPRING ROL 1 KG                          ,399
+1305,VEG CHEESE CORN TRAINGLE 1 KG                     ,580
+1306,VEG SHAMI KABAB 1KG                               ,399
+140043,DELISH BLACKBERRIS 200GM PKT                      ,205
+1401,PP CH SALAMI PLAIN 1 KG                           ,450
+1402,PP CH SALAMI COCTAIL  V 1 KG                      ,500
+1403,PP CH SALAMI BLACK PEPER 1 KG                     ,500
+1404,PP CH SALAMI PEPRICA 1KG                          ,480
+1405,PP CH SALAMI PISTA 1KG                            ,480
+1406,PP CH SALAMI OLIVE 1KG                            ,480
+1407,PP CH SALAMI HERBS 1KG                            ,480
+1408,PP CH HAM REGULAR 1KG                             ,480
+1409,PP CH HAM SMOKED 1KG                              ,600
+1410,PP MZ CH MORTADELLA  1 KG                         ,700
+1501,PP PORK HAM PRIME 1KG                             ,600
+1502,PP PORK HAM SMOKED 1KG                            ,480
+1503,PP PORK SALAMI PLAIN 1KG                          ,450
+1504,PP PORK SALAMI SPICY 1KG                          ,450
+1505,PORK   BECON 1 KG                                 ,600
+1506,PORK PLAN SAUSAGE 1 KG                            ,600
+1507,FARM PORK MEAT 1 KG                               ,600
+1508,R    DOG MEAT 1 KG                                ,100
+1509,MZ PORK HAM 1 KG                                  ,600
+1510,PP MZ PORK SAUSAGES 1 KG                          ,550
+1511,MZ PORK BECON  250GM                              ,239
+160001,SHAN MEAT MASALA 100GM                            ,60
+160002,SHAN BUTTER CHICKEN 50GM                          ,60
+160003,SHAN BOMBAY BIRYANI 60GM                          ,60
+160004,SHAN ROGAN JOSH CURRY                             ,60
+160005,SHAN MEMONI MUTTON BIRYANI 60GM                   ,60
+160006,SHAN CHICKEN MASALA 50 GM                         ,60
+160010,KAINAT MEAT MASALA 30GM                           ,25
+160011,SHAAN SHEER KHURMA 1 PC                           ,70
+160012,NAZEER CHICKEN MASALA 30 GM                       ,20
+160013,NAZEER MEAT MASALA 1 PC                           ,20
+160014,SHAN SPECIAL KHEER 1 PC                           ,70
+160015,SHAN NIHARI 60 GM 1 PC                            ,60
+160016,SHAN  KORMA 50 GM 1 PC                            ,60
+160017,SHAN TANDOORI MASALA 50 GM 1 PC                   ,60
+160018,SHAN FISH SEASSONING 50 GM1PC                     ,60
+160019,SHAN HALEEM MASALA 1 PC 50 GM                     ,60
+160020,SHAN PILAU BIRYANI MASALA 1PC 50 GM               ,60
+160021,SHAN LAHORI FISH 1 PC 100 GM                      ,60
+160022,SHAN KARAHI GOSHT 50 GM 1 PC                      ,60
+160023,SHAN MAL CHI BIRYANI 60 GM 1 PC                   ,60
+160024,SHAN BIRYANI 50 GM 1 PC                           ,60
+160025,SHAN SHEER KHURMA 150GM 1 PC                      ,60
+160026,SHAN PANJABI YAKNI PILAU 50 GM                    ,60
+160027,SHAN CHICKEN TIKKA 50 GM                          ,60
+160028,SHAN ACHAR GOST 50GM                              ,60
+160029,SHAN KEEMA 50 GM 1 PC                             ,60
+160030,SHAN BADAM KHEER 150 GM                           ,70
+160031,SHAN CHICKEN HANDI 50 GM                          ,60
+160032,SHAN CHICKEN WHITE KORMA 40 GM                    ,60
+160033,SHAN DAL  MASALA 50 GM                            ,60
+160034,SHAN CHAT MASALA 50 GM                            ,60
+160035,SHAN CHICKEN WHITE KARAHI 40 GM                   ,60
+160036,SHAN ZAFRANI GARAM MASALA 50G.                    ,60
+160037,NATIONAL CHICKEN BIRYANI 45GM                     ,55
+160038,NATIONAL SINDHI BIRYANI 50 GM                     ,55
+160039,NATIONAL BOMBAY BIRYANI 70 GM                     ,55
+160040,NATIONAL BIRYANI MASALA 45 GM                     ,55
+160060,NIMKISH KORMA MASALA 50G.                         ,45
+160061,NIMKISH FISH FRY 40G.                             ,40
+160062,NIMKISH RARA CHICKEN 50G.                         ,45
+160063,NIMKISH AFGHANI CHICKEN 40G.                      ,45
+160064,NIMKISH TANDOORI FISH 30G.                        ,40
+160065,NIMKISH BUTTER CHICKEN 50G.                       ,45
+160066,NIMKISH MEAT CURRY 50G.                           ,45
+160067,NIMKISH MUTTON ROGAN JOSH 50G.                    ,45
+160068,NIMKISH CHICKEN CURRY 50G.                        ,45
+160069,NIMKISH KEEMA CURRY 50G.                          ,45
+160070,NIMKISH BHUNA GOSHT 50G.                          ,45
+160071,NIMKISH TANDOORI CHICKEN 40G.                     ,40
+170001,LON  STRAWBERRY ICE CREAM 1LTR                    ,600
+170002,LON MOCHA ALMONDS FUDGE I LTR                     ,600
+170003,LON CHOCOLATE HAZELNUT 500 ML                     ,325
+170004,LON COOKIES & CREAM 500 ML                        ,325
+170005,LON PRALINES 500 ML                               ,325
+1700053,DANON MISTI  DOI KULFI                            ,20
+170006,LON CHOCO BROWINE 500 ML                          ,325
+170007,LON DOUBLE CHOCOLATE 500 ML                       ,325
+170008,LON NATURAL STRAWEBEERY 500 ML                    ,325
+170009,LON KULFI 500 ML                                  ,325
+170010,LON  ALMONDS  110 ML                              ,100
+170011,LON PEANUT SURPRISE 75 ML                         ,60
+170012,LON NATURAL STRAWBERRY 125 ML                     ,100
+170013,LON VANILA 125 ML                                 ,100
+170014,LON CARAMEL CRUNCH 125 ML                         ,100
+170015,LON COOKIES & CREAM 125 ML                        ,100
+170016,LON PRALINES CREAM 125 ML                         ,100
+170017,LON DOUBLE CHOCOLATE 125 ML                       ,100
+170018,LON MANGO SORBET 100 ML                           ,100
+170019,LON TIRAMISU 500 ML                               ,325
+170020,LON TIRAMISU 125ML                                ,100
+170021,LON  HAZELNUT 110 ML                              ,100
+170022,LON MANGO SORBET 500ML                            ,325
+170023,AMUL FRESH CREAM 200 ML                           ,45
+170024,LON DOUBLE CHOCOLATE 1 LTR                        ,600
+170025,AMUL FRESH CREAM 1 LTR                            ,185
+170026,AMUL BUTTER 100 GM                                ,37
+170027,HOKEY POKEY MADKING ALPHA 125 ML                  ,60
+170028,HOKEY POKEY KNIGHT ARMOR 125 ML                   ,65
+170029,HOKEY POKEY NH7 WEEKEN MIX 125 ML                 ,50
+170030,HOKEY POKEY FRENCH VANILA 125 ML                  ,60
+170031,HOKEY POKEY DOUBLE CHCOLATE THE 125               ,75
+170032,HOKEY POKEY L&L BROWNIE BREAK 500ML               ,225
+170033,HOKEY POKEY MOCACCINO MAGIC  500 ML               ,225
+170034,HOKEY POKEY BLACK FOREST BLEND 500M               ,225
+170035,HOKEY POKEY WEE KEN DER MIX 500 ML                ,275
+170036,HOKEY POKEY KNIGHT IN ARMOR 500ML                 ,225
+170037,SOYFRESH SOYA CAPPUCCINO 1 LTR                    ,175
+170038,SOYFRESH SOYA MILK 1 LTR                          ,175
+170039,HOKEY MAD KING ALPHONSO 500ML                     ,195
+170040,HOKEY FUSSY FRENCH VANILLA  500ML.                ,195
+170041,HOKEY SILKY SMOOTH KULFI 500ML                    ,225
+170042,DANON SWEET LASSI 200ML.                          ,25
+170043,DANONE CHOCO SMOOTHIE 180ML.                      ,25
+170044,DANONE BUTTERMILK MASALA 200ML.                   ,20
+170045,DANONE DAHI 400G.                                 ,55
+170046,DANONE MISTI DOI PLAN  85G.                       ,20
+170047,DANONE MILK SHAKE STRAW BERRY 180ML               ,25
+170048,DANONE MILK SHAKE CHOCOLATE 180ML.                ,25
+170049,DANONE MANGO YOGHURT 80G.                         ,25
+170050,DANONE MANGO LASSI 200ML.                         ,25
+170051,DANONE VANILLA YOGHURT 80G.                       ,25
+170052,DANONE STRAWBERRY YOGHURT 80G.                    ,25
+170053,MURG UNSALTED BUTTER  150GM                       ,100
+170054,MURG GARLIC HERBS BUTTER  125GM                   ,125
+170055,HOKEY POKEY DOUBLE CHOCO 500ML                    ,275
+170056,HOKEY POKEY MANIC MONKEY 500 ML                   ,245
+170057,HOKEY POKEY VERRY V BERRY 500ML                   ,245
+170058,KDD  MALAI MAGIC 200 ML                           ,45
+170059,MOOZ  MASCARPONE 150G.                            ,200
+170060,MOOZ RICOTTA 150G.                                ,180
+170061,MOOZ CREAM CHEESE 150G.                           ,200
+170062,MOOZ PLAIN TOASTY 180G.                           ,200
+17009,LON BERRIES N CREAM 100 ML                        ,100
+180001,SU ALOO PARATHA 400GM                             ,90
+180002,SUMERU FLAKY PRATHA 400GM                         ,85
+180003,SUMERU ONION PRATHA 400GM                         ,102
+180004,SUMERU ATTA PRATHA 400GM                          ,69
+180005,SUMERU JEERA PRATHA 400GM                         ,85
+180006,SUMERU MALABAR PRATHA 400GM                       ,75
+180007,SUMERU WASSAUP  FISH FINGER 200GM                 ,168
+180008,SUMERU LARGE PROWNS 250GM                         ,260
+180009,SUMERU MID PRAWNS 250GM                           ,230
+180010,SUMERU JUMBO PRAWNS250GM                          ,293
+180011,KEYA MULTIGRAIN PRATHA 300GM                      ,70
+1800112,SU  SEER FISH 500GM                               ,528
+1800113,SU. GREEN PEAS 500G.                              ,130
+180012,KEYA BUTTER PRATHA 300GM                          ,75
+180013,KEYA TANDOORI NAAN 300GM                          ,70
+180014,KEYA FISH FILLETS 450GM                           ,280
+180017,MCCAIN POTATO CHEES SHOTS 250GM                   ,185
+180018,MCCAIN MASALA FRIES 420GM                         ,90
+180019,MCCAIN ALOO TIKKI 400GM                           ,85
+180020,MCCAIN PPTATO BITES 420GM                         ,95
+180021,MCCAIN VEGGIE NUGGETS325GM                        ,95
+180022,MCCIAI VEGGIE BURGER PATTY 360GM                  ,90
+180023,MCCAIN VEGGIE FINGER 400GM                        ,95
+180024,MCCAIN FRENCH FRIES 450GM                         ,85
+180025,MCCAIN SUPER WEDGES 450 GM                        ,90
+180026,MCCAIN SMILES 415 GM                              ,100
+180027,MCCAIN VARIETY PACK VEG 550 GM                    ,120
+180028,VENKY S  MURG MASALA 250GM                        ,100
+180029,VENKY CH POPCORN 250GM                            ,100
+180030,VENKY BUTTER CHICKEN 250GM                        ,140
+180031,VENKY CHI SAUSAGES 300 GM                         ,155
+180032,VENKY CHI  CHEESE NUGGETS 300GM                   ,125
+180033,VENKY CHI NUGGETS  200 GM                         ,90
+180034,PAGRO GREEN PEAS 400 GM                           ,75
+180035,YAMMIZ  SWEET CORN 500 GM                         ,70
+180036,VEZLAY SOYA SAMM KABAB 280 GM                     ,130
+180037,VEZLAY SOYA SEEK KABAB 280 GM                     ,130
+180038,VEZLAY SOYA CHOP 200 GM                           ,70
+180039,SUMERU METHI PRATHA 1 PCS                         ,69
+180040,DELISH HARA BHAR KABAB 240GM PKT                  ,99
+180041,DELISH CHEESE CORN TRAING 180 GM 1P               ,115
+180042,DELISH VEG SHAMI KABAB 240 GM1PKT                 ,99
+180044,DELISH BLACKCRRUNT 200GM PKT                      ,205
+180045,DELISH RASPBERRIES 1PKT                           ,205
+180046,DELISH STRAWBERRIES 1 PKT                         ,139
+180047,DELISH BLUEBERRY 200GM PKT                        ,239
+180048,DELISHH  THAI VEG SPRING ROL 1 PKT                ,110
+180051,DDDDDDDDDDDDDDDDDDDDDDD                           ,1
+180055,PAGRO GREAN PEAS 1 KG                             ,140
+180056,FRESH POTATO TEDDY BEARS 1 PC                     ,93
+180057,POMFRET CAMBAY TIGER 500 GM                       ,473
+180058,FRESH SAMOSA PATTI 190 GM                         ,74
+180059,FRESH SPIRNG ROLL PATTI 200GM                     ,94
+180111,SUMERU PORK BECON 150GM                           ,212
+180112,C T CHILLI BASIL BASA FISH 200 GM                 ,203
+180113,YAMMIEZ MUMBAI VADA 300 GM                        ,75
+180114,MASALA MACKEREL 1 PC                              ,80
+180115,CHE VON GOAT SAUSAGE 250GM.                       ,295
+180116,CRAB STICK  250 GM                                ,170
+180117,GADRE FISH POPCORN 200 GM                         ,140
+180118,GADRE LOBSTER BITE 300 GM                         ,170
+180119,GADRE CRAB CLAW  250 GM                           ,170
+180120,GADRE FISH FINGERS 200G.                          ,140
+180121,GADRE MASALA PRAWNS 200G.                         ,250
+1851,PP  MAXICAN SALAMI 1 KG                           ,630
+190001,FUN FOODS AMERICAN MUSTERD 260GM                  ,69
+190002,F F MINT MAYO KABAB 235GM                         ,69
+190003,F F CLASSIC MAYONNAISE 275 GM                     ,79
+190004,F F VEG MAYONNAISE 275 GM                         ,79
+190005,F F  GARLIC CHI MOMO 250 GM                       ,69
+190006,F F  TARTARE DIP 225 GM                           ,69
+190007,F F ENGLISH MUSTERD 300 GM                        ,65
+190008,F F SPICY VINEGAR 190 GM                          ,39
+190009,F F  SWEET CHILLI SAUCE 220 GM                    ,39
+190010,F F RED CHILLI SAUCE 220GM                        ,39
+190011,F F GREEN CHILLI SAUCE 200GM                      ,39
+190012,F F  SOYA SAUCE 210 GM                            ,39
+190013,FF DIET MAYONNAISE 275 GM                         ,79
+190014,F F GARLIC MAYONNAISE 275GM 1 PCS                 ,79
+190015,F F PEANUT BUTTER CRUN 1 PC                       ,129
+190016,F F PEANUT BUTTER CREAMY 1 PC                     ,129
+190017,F F PASTA & PIZZA SAUCE 325GM 1 PC                ,85
+190018,F F PIZZA TOPPING 325GM 1PC                       ,85
+190019,F F MANCHURIAN 210 GM                             ,59
+190020,BAGRRY CRUNCH MUESLI  400 GM                      ,199
+190021,BAGRRY CRUNCHY MUESLI DIET 400 GM                 ,199
+190022,BAGRRY CRUNCH MUESLI HONEY 400GM                  ,199
+190023,BAGRRY FRUITE N FIBRE STRA 400GM                  ,199
+190024,BAGRRY FRUIT FIBER ALMONDS 400GM                  ,199
+190025,FF BUTTER SCOTCH DESSERT 300 GM                   ,75
+190026,FF CHOCO DESSERT TOPPING 300GM                    ,75
+190027,FF SANWICH SPREAD THOU ISLA  300 GM               ,85
+190028,FF SANDWICH CHEESE CHILI SPER 275GM               ,85
+190029,FF SANDWICH CUCU CARRET CLASIC 275                ,85
+190030,FF HONEY SALAD DRESSING 250GM                     ,89
+190031,FF PASTA SALAD DREESING 260GM                     ,89
+190032,FF BARBECUE SOUCE 300 GM                          ,89
+190033,FF SALSA   DIP   400 GM                           ,89
+190034,FF SCHEZWAN SAUCE 230 GM                          ,59
+190035,FF BURGER MAYO EGGLESS 275 GM                     ,79
+190036,F F SANDWICH SPRED EGG LESS 300 GM                ,85
+190037,FF CHOCO LAVA E LESS 240GM                        ,159
+190038,FF 11 CAKES EGGLESS 250GM                         ,89
+190039,FF BROWNIE EGLES 250GM                            ,99
+190040,FF CHOCOLATE EG LESS 250GM                        ,99
+190041,F F VINAIGRETTE SALAD DRESSING 280G               ,89
+190042,F F STRAWBERRY DESSERT TOP 300 GM                 ,75
+190043,F F PASTA ALFREDO CHEESE 275 GM                   ,115
+190044,F F CHOCOLATE FUDGE SPREAD 350 GM                 ,129
+190045,BAGRRY FRUIT BANANA 400 GM                        ,199
+190046,BAGGRY FRUIT MANGO 400 GM                         ,199
+190047,BAGRRY WHITE OTS 500 GM                           ,90
+190048,FF CHILLICO RED PEPPER SAUC 55 GM                 ,45
+190049,F F GREEN MINT MAYO E LESS 275GM                  ,79
+190050,F F TANDOORI MAYO  E LESS 275GM                   ,79
+190051,F F 1000 ISLAND SALAD DRES 260GM                  ,89
+200002,FARRELL OLIVES COOKING OIL 1LTR                   ,950
+200004,FARRELL EXTRA VIRGIN OIL 500 ML                   ,599
+200005,FARREL OLIVE PURE OIL  500GM                      ,550
+200006,FARRELL EXTRA VIRGIN 1 LTR OIL                    ,999
+200007,POMACE OLIVE OIL 1 LTR                            ,699
+200008,POMACE OLIVE OIL 500 GM                           ,399
+20001,OLIVES OIL FOR CUISINE  PURE  1 LTR               ,975
+210001,CHAMMONG ER GREY 1 PC                             ,150
+210002,CHAM MINT GREEN TEA                               ,150
+210003,CHAM LEMON  TEA 1C                                ,150
+210004,CHAM BLAC TEA 1 PC                                ,150
+210005,CHAM GREEN TEA 1 PCS                              ,150
+210008,CHAM MASALA MANTRA 1 PC                           ,150
+220001,KEYA  FISH PICKLE 1 PCS                           ,175
+220002,KEYA PRAWN PICKLE 270 GM                          ,200
+220003,KEYA CHICKEN PICKLE 270 GM                        ,175
+220004,SHAN CHILLI PICKLE 300 GM                         ,130
+220005,SHAN HEDRA MIX PICKLE 300GM                       ,130
+220006,SHAN MANGO PICKLE 300 GM                          ,130
+220007,SHAN CARROT PICKLE 300 GM                         ,130
+220008,SHAN LEMON PICKLE 320 GM                          ,130
+220009,SHAN GARLIC PICKLE 320 GM                         ,200
+230001,WILD ENER DRAGON400 ML                            ,70
+230002,WILD ENER TROPICLE WATER 400GM                    ,70
+230003,WILD ENER LEMONADE 400GM                          ,70
+230004,PUSH COCO WATER 250ML                             ,35
+230005,AMUL MASTI  DAHI 400GM                            ,40
+240001,TEX TORTILLA 348 GM                               ,150
+240002,TEXMEX SALSA HOT  283 GM                          ,130
+240005,TEXMEX TACCO SOUCE MILD 283 GM                    ,130
+240006,TEX MEX TACO SHEELS 135 GM                        ,150
+240007,TEXMEX DINER KIT 285GM                            ,199
+240008,TEXMEX TORTILLA CHIPS CHEES 180GM                 ,100
+240009,TEXMEX TOR CHIPS NACHOS 180GM                     ,100
+240010,TEXMEX TOR CHIPS CHILLY 180GM                     ,100
+240011,TEXMEX TOR CHIPS SALTED 180 GM                    ,100
+240012,TEX FAJITA DINNER KIT 488GM                       ,199
+240013,TEX TOR CHIPS CRISP JALEPENO  45GM                ,30
+240014,TEX MIX SALSA 3 CHIPS 1 DIP 45 GM                 ,89
+240015,TEX MEXICAN QUIC MIX 65GM                         ,110
+240016,TEX TECO SEASONING MIX 40GM                       ,55
+240017,TEX FAJITA SEASONING MIX 30 GM                    ,55
+240018,TEX TOR CHIPS CORN SALTED 45GM                    ,30
+240019,TEX CHEES FLAVERD CORN CHIPS 45 GM                ,30
+240020,TEX CHILLY FLAVERD CHIPS 45GM                     ,30
+240021,TEX FAJITA FESTIVE PACE D KIT 488GM               ,250
+24003,TEXMEX SALSA MILD 283 GM                          ,130
+24004,TEXMEX TACO SOUC HOT 283 GM                       ,130
+250001,KEYA ROSEMERRY 13GM                               ,80
+250002,KEYA BASIL 7 GM 1PC                               ,95
+250003,KEYA MIXED HARBS 20 GM                            ,95
+250004,KEYA RED CHILLI FLAKES 40 GM                      ,80
+250005,KEYA PIZZA SEASONING 40 GM                        ,99
+250006,KEYA PASTA SEASONING 40 GM                        ,99
+250007,KEYA CREAMY CHICKEN SOUP 15GM                     ,25
+250008,KEYA CREAMY TOMATO SOUP 20 GM                     ,25
+250009,KEYA CREAMY MASHROOM 14 GM                        ,25
+250010,KEYA SWEET CORN CHICKEN SOUP 17GM                 ,25
+250011,KEYA HOT N SOUR CHICKEN SOUP 13GM                 ,25
+250012,KEYA SPINACH SOUP 17GM                            ,25
+250013,KEYA OREGANO 7 GM                                 ,95
+250014,KEYA ITALION SEASONING 30GM                       ,99
+250015,KEYA THYME 18 GM                                  ,95
+250016,KEYA LEMON GRASS 15 GM                            ,95
+25006,KEYA ALL PURPOSE SEASONING 60 GM                  ,99
+25017,KEYA BARBECUE SEASONING 30GM                      ,99
+25018,KEYA SRI LANKAN CINNAMON POW.55GM                 ,125
+25019,KEYA SALAD SEASONING 65 GM                        ,99
+25020,KEYA CHINESE SEASONING 50GM                       ,99
+25021,KEYA PARSLEY 15 GM                                ,95
+25022,KEYA BLACK PEPPER POWDER 60G                      ,125
+25023,NATURES. GARLIC GRANULES75G.                      ,70
+25024,NATURES CREAM OF TARTAR 75G.                      ,120
+25025,NATURES SEA SALT GOARSE 75G.                      ,120
+25026,NATURES PAPRIKA POWDER 60G.                       ,120
+260001,NANDO MEDIUM  PERI SUCE 125 ML 1 PC               ,280
+260002,TONG GAR WASABI GREEN PEAS 180GM                  ,150
+260003,DRIED STRAWBERRY 110 GM                           ,150
+260004,OTIMA  LASAGNE 500GM 1 PC                         ,300
+260005,TONG GARDEN SALTED CASHE NUTS 180GM               ,260
+260006,TONG GARDEN ROST ALMONDS 180GM                    ,250
+260007,TONG GARDEN COCK NUTS 110GM                       ,140
+260008,TONG GARDEN ALL N COCKTAIL 100GM                  ,140
+260009,TONG GARDEN LIGHT ALMOND 100 GM                   ,140
+260010,OLICOOP PIRI PIRI 100GM                           ,150
+2600100,TONG GARDEN PARTY SNACK 180G.                     ,140
+2600101,TONG GARDEN FRESHLY ROS. 170G.                    ,120
+2600102,TONG GARDEN PARTY SNACK 25G.                      ,15
+2600103,FIGARO SLICED BLACK OLIVES 230G.                  ,159
+260011,KRAFT CHEDDAR CHEESE 200GM                        ,250
+2600110,AG APPLE CIDER 473ML.                             ,165
+2600114,HERSHEY'S COCOA UNSWEETENED 225G.                 ,250
+260012,NAMJAI GREEN CURRY PASTE 50 GM                    ,50
+260013,NAMJAI RED CURRY PASTE 50 GM                      ,50
+2600136,NEO SLICED JALAPENO 340G.                         ,120
+2600137,NEO CHERRY TOMATO 480G.                           ,115
+2600138,NEO SPICY GHERKINS 350G.                          ,150
+260014,KRAFT B B Q ORIGINAL SAUCE496 GM                  ,250
+260015,RAGU WHITE SAUCE  1 PC                            ,325
+260016,RAGU CHUNKY SAUCE 397GM                           ,250
+260017,FRENCH CLASSIC MUSTERD226GM                       ,225
+2600179,PRINGLES ORIGINAL 40G.                            ,85
+260018,AGNESI SPAGHEETTI 500GM                           ,120
+2600180,PRINGLES SOUR CREAM & ONION 40G.                  ,85
+2600181,PRINGLES CHEESE & ONION 40G.                      ,85
+2600182,PRINGLES CHEESY CHEESE 165G.                      ,230
+2600183,PRINGLES SOUR CREAM & ONION 165G.                 ,230
+2600184,PRINGLES JALAPENO 169G.                           ,230
+2600185,PRINGLES BBQ 40G.                                 ,85
+260019,CHICKEN DIP 390GM                                 ,130
+260020,NUTELLA 350GM 1 PC                                ,300
+260021,HARIBO  150GM 1 PC                                ,175
+260022,PRINGLES ORIGINAL POTATO 161 GM                   ,230
+260023,KRAFT ORIGINAL CHEESE SPREAD240GM                 ,325
+260024,PUCK CHEESE SPREAD 240GM                          ,350
+260025,JOHN WEST TUNA 160GM                              ,210
+260026,THAI COCONUT MILK400 ML 1PC                       ,139
+260027,COCO NUT CREAM 400 ML 1PC                         ,170
+260028,PRINGLES PIZZA 169GM 1PC                          ,230
+260029,PRINGLES BBQ 169GM 1PC                            ,230
+260030,PRINGLES CREAM ONION 169GM                        ,230
+260031,NANDOS  EXTRA HOT  PERI 125 ML                    ,300
+260032,NANDOS HOT  PERI 125ML                            ,300
+260033,NANDOS  GARLIC   PERI  SOC 125 ML                 ,300
+260034,REMIA ITALIAN SALAD DRESS 250 ML                  ,185
+260035,REMIA GARLIC SALAD DRESS 250ML                    ,185
+260036,REMIA THOU ISLAND DRESS 250ML                     ,185
+260037,REMIA FRENCH SALAD DRESS 250ML                    ,175
+260038,TONG GARDEN CASHEW NUTS 100 GM                    ,140
+260039,DAVIDOFF COFFE RICH AROMA 100 GM                  ,609
+260040,DEVIDOFF COFFE FINE AROMA 100GM                   ,609
+260041,AYAM  CHILLI TUNA 185 GM 1PC                      ,270
+260042,AYAM TUNA TOMOTO CHILLI 185GM 1PC                 ,270
+260043,AYAM TUNA FLAKES WATER 185GM 1 PC                 ,275
+260044,AYAM TUNA BLACK PEPPER 185GM 1 PC                 ,275
+260045,AYAM TUNA FLAKES IN SUNFLOWER  185G               ,275
+260046,AYAM TUNA FLAKES OLIVE  OIL 185GM                 ,275
+260047,AYAM SALMON SPREAD 185GM                          ,275
+260048,AYAM TUNA CARRY 185 GM                            ,275
+260049,AYAM CHUNKS MINERAL WATER 185GM                   ,275
+260050,AYAM CHUNKS OLIVE OIL 185GM                       ,275
+260051,KRAFT HICKORY SMOKE 496GM                         ,250
+260052,KRAFT  HOT B B Q SAUCE 510GM                      ,250
+260053,OLICOOP  GREEN OLIVE PITT 450 GM                  ,160
+260054,TONG GARDEN SALTED PEANUTS 500G                   ,250
+260055,BLACK OLIVE PLAN  450 GM                          ,160
+260056,JALAPENOS 450 GM                                  ,265
+260057,A.M PANCAKE SYRUP 710 ML                          ,449
+260058,HERSHEY CHOCO SYRUP 623GM                         ,180
+260059,BREAD CRUMBS PLAIN 425GM                          ,190
+26006,HEINZ VINEGAR DISTILLED 568ML                     ,300
+260060,TABASCO PEPPER SAUCE 59 ML                        ,175
+260061,CORNAE  80 GM                                     ,124
+260062,KRAFT PARMESAN SHEESE 85 GM                       ,430
+260063,MARMITE YEAST EXTRACT 125GM                       ,345
+260064,HEINZ APPLE CIDER  473 ML                         ,300
+260065,AG. BREAD CRUMBS PLAIN 425G.                      ,190
+260066,HEINZ WHITE VENEGAR PICKLE 473 ML                 ,300
+260067,MAGGI CHICKEN STOCK 20GM                          ,40
+260068,MAGGI VEG SOUP STOCK 20 GM                        ,30
+260069,FIESTA PURPLE COCKTELL  1PC                       ,265
+260070,FIESTA  PINK MIX  1 PC                            ,265
+260071,FIESTA BLUE MIX 1 PC                              ,265
+260072,FIESTA  RED MIX 1 PC                              ,265
+260073,BLACK OLIVE PITTED 450 GM                         ,160
+260074,RAGU ALFREDO SAUCE                                ,325
+260075,LINDT SEA SALT DARK CHOCO 1 PC                    ,330
+260076,LINDT CARAMEL DARK CHOCO 1PC                      ,330
+260077,LINDT ORANGE DARK 100GM                           ,330
+260078,LINDT COCOA 70% 100 GM                            ,330
+260079,LINDT  COCOA 85% 100 GM                           ,330
+260080,LINDT CHERRY DARK CHOCO 100 GM                    ,330
+260081,LINDT CACAO 90% 100 GM                            ,330
+260082,RAHM CHOCEUR ALMONDS 200 GM                       ,270
+260083,FERRERO ROCHER 300 GM                             ,675
+260084,DORITOS NACHO CHEESE 198 GM                       ,399
+260085,TOM YAM SOUP PASTE 35 GM                          ,50
+260086,HARIBO HAPPY COLA 160GM                           ,180
+260087,HARIBO GOLDBEARS 150 GM                           ,180
+260088,TONG GARDEN WASABI 50 GM                          ,25
+260089,BACHUN OYSTER SAUCE 350  ML                       ,175
+260090,ONG CHILLY GARLIC SAUCE 227 GM                    ,190
+260091,DORITOS HOT SALSA 326 GM                          ,350
+260092,DORITOS MILD SALSA 326 GM                         ,350
+260093,COCA COLA 150 ML                                  ,45
+260094,FIESTA GREEN MIX 750ML                            ,265
+260095,FIESTA RED GRAP JUICE 750 ML                      ,260
+260096,FIESTA GRAPE MANGO 750 ML                         ,245
+260097,FIESTA GRAPE & PEACH 750 ML                       ,245
+260098,NUT WALKER 220GM                                  ,240
+260099,TONG GARDEN COCKTAIL SNACK 140GM                  ,260
+260100,PRING S C ONION  CRISP 47GM                       ,85
+260102,PRINGLES ORIGINAL POTAO47GM                       ,85
+260103,WILD STRABERRY DRINK 400 ML                       ,70
+260104,PRINGLES THAI SWEET CHILLY 190GM                  ,210
+260105,PRINGLES ROASTCHICKEN 190GM                       ,210
+260106,PRINGLES PRAWN COCKTAIL 190GM                     ,210
+260107,PRINGLES EXTRA KICKIN 175GM                       ,230
+260108,PRINGLES EXTRA CHEESY 190 GM                      ,210
+260109,FIESTA YELLOW MIX 750 ML                          ,265
+260110,DAVIDOFF CAFE ESPRESSO DARK 100GM                 ,610
+260111,LKK CHILLI GARLIC SAUCE 226 GM                    ,295
+260112,RAGU  PASTA   SAUCE 396 GM                        ,250
+260113,HERSHAY  STRAWBERRY 623 GM                        ,185
+260114,HEINZ BEANZ  BEANS SAUCE 415 GM                   ,160
+260115,NESCAFE GOLD 100 GM                               ,450
+260116,NESCAFE GOLD 50 GM                                ,290
+260117,VEGE CRACKERS 300 GM                              ,150
+260118,LINDT MINT INTENSE DARK 100GM                     ,330
+260119,DIABESSA VOLLMILCH NUSS 100GM                     ,259
+260120,DIABESSA ZARBITTER 100 GM                         ,259
+260121,LINDT WILLIAMS 100GM                              ,399
+260122,LINDT KIRSCH 100 GM                               ,399
+260123,KRAFT HONEY BBQ 496  GM                           ,287
+260124,TEXMEX CHIPS JALAPENO 180GM                       ,100
+260125,LINDT ROASTED ALMONDS 100GM                       ,330
+260126,LINDT SWEET DARK 100 GM                           ,330
+260127,ANTHON CHOCOLATE LIQUERS 4PC                      ,550
+260128,ANTHON BERG CHOCO LIQUERS 16 PC                   ,1450
+260129,SONNA MERA CORNICHONS 460GM                       ,165
+260130,NEO SANDWICHSTACKER 480GM                         ,120
+260131,NEO BURGAR CHIPS 350 GM                           ,110
+260132,NEO MUSTARD RELISH 340GM                          ,160
+260133,NEO SILVER SKIN ONIONS 350GM                      ,140
+260134,NEO SLICED RED PEPRICA 350GM                      ,1130
+260135,NEO MIXED PEPPERS 350 GM                          ,130
+260136,HERO FOREST BERRY 340 GM                          ,295
+260137,HERO BLACK CHERRY JAM 340GM                       ,315
+260138,HERO BLACK BERRY JAM 340 GM                       ,295
+260139,HERO BLACK CURRANT JAM340GM                       ,315
+260140,HERO BLUEBERRY JAM 340 GM                         ,315
+260141,HERO STRAWBERRY JAM 340GM                         ,295
+260142,CERES APPLE JUICE 100% 1 LT                       ,155
+260143,HERO RASPBERRY PRESERVE 340GM                     ,315
+260144,HERO BITTER ORANGE JAM 340GM                      ,295
+260145,CERES CRANBERRY KIVI JUICE 1LT                    ,155
+260146,CERES LITCHI JUICE 100% 1 LT                      ,155
+260147,CERES MEDLEY FRUIT JUICE 1 LT                     ,155
+260148,CERES YOUNGBERRY JUICE 1LT                        ,155
+260149,CERES RUBY GRAPEFRUITJUICE 1LT                    ,155
+260150,CERES MANGO JUICE 1 LT                            ,155
+260151,CERES APRICOT JUICE 1 LT                          ,155
+260152,CERES PASSION FRUIT JUICE 1 LT                    ,155
+260153,CERES RED GRAPE JUICE 1 LT                        ,155
+260154,CERES PRANGE JUICE 1 LT                           ,155
+260155,WASABI GREEN PEAS CUP 100GM                       ,50
+260156,LINDT EXTRA CREAMY 100 GM                         ,330
+260157,LINDT BLUBERRY INTENSE 100GM                      ,330
+260158,AFTER EIGHT 200 GM                                ,330
+260159,RITTER TRAUBEN NUSS 100GM                         ,225
+260160,RITTER ERDBEER JOGHURT 100GM                      ,225
+260161,RITTER WHOLE HAZELNUTS 100GM                      ,199
+260162,RITTER MARZIPAN 100 GM                            ,199
+260163,RITTER PARALINE 100 GM                            ,199
+260164,CAPILANO  HANEY 500 GM                            ,595
+260165,CAPILANO HONEY 400 GM                             ,495
+260166,RITTER VOLL NUSS 100 GM                           ,199
+260167,NANDOS TOMOTO BASIL PERI  270  ML                 ,450
+260168,NANDOS MED PERI PERI 270GM                        ,450
+260169,DUFRAIS RED VINEGAR 350ML                         ,250
+260170,SKIPPY SUPER CHUNK P BUTTER 462 GM                ,450
+260171,CHOCOLAND CHOCOPIE 150GM                          ,60
+260172,SKIPPY CREAMY PEANUT BUTTER 462 GM                ,450
+260173,SELVA SERA LAZANYA 500GM                          ,225
+260174,REMIA CAESAR SALAD DREESING  250 ML               ,185
+260175,RITTER ESPRESSCO  100GM                           ,199
+260176,TEXMAX SALSA DIP 300 GM                           ,150
+260177,HEINZ VINEGAR MALT 568 ML                         ,300
+260178,PRINGLES SALT & VINEGAR 169 GM                    ,230
+260179,OLICOOP GHERKING MINI 370ML                       ,175
+260180,CERES HANEPOOT GRAPE JUICE 1 LTR                  ,155
+260181,CERES WHISPERS OF SUMMER 1 LTR                    ,155
+260182,REMIA BLUE CHEESE SALAD DRESS 250ML               ,175
+260183,REMIA GARLIC SAUCE 250 ML                         ,175
+260184,RAGU PIZZA SAUCE 397 GM                           ,225
+260185,REMIA MAYOLITE 500 ML                             ,235
+260186,REMIA MAYOLITE 250 ML                             ,175
+260187,REMIA MAYONNAISE 250 ML                           ,175
+260188,SKIPPY  EXTRA CRUNCHY 340 GM                      ,325
+260189,SKIPPY  CREAMY  P BUTTER 340 GM                   ,325
+260190,DANA STRAWBERY SPREAD SU. FREE315GM               ,295
+260191,DANA RASPBERRY SUGAR FREE SPD 315GM               ,295
+260192,DANA MIXED FRUIT SU FREE SPRD 315 G               ,295
+260193,THAI HERITAGE FISH SAUCE 200ML                    ,139
+260194,ZWAN PORK LUNCHEON 340GM                          ,325
+260195,ZWAN PORK COCKTAIL 200 GM                         ,275
+260196,ZWAN PORK COCKTAIL LIGHT 200 GM                   ,275
+260197,ZWAN PORK HOT DOG LIGHT 400GM                     ,275
+260198,CARLJUNG WHITE WINE NON ALCO.  750M               ,475
+260199,CARLJUNG RED WINE NON ALCO 750 ML                 ,475
+260200,AGNESI WHOLE WHEET PENNE PASTA 500G               ,195
+260201,AGNESI WHEAT SPAGHETTI 500 GM                     ,195
+260202,NAUMI SWEET CORN 250GM                            ,66
+260203,THAI MINCE GARLIC 110 GM                          ,99
+260204,THAI MINCED GINGER 105 GM                         ,99
+260205,THAI CORIANDER PASTE 110 GM                       ,99
+260206,THAI DARK SOY SAUCE  200 ML                       ,139
+260207,THAI GARLIC CHILLI SAUCE 200 ML                   ,139
+260208,THAI RICE VINEGAR 200 ML                          ,139
+260209,THAI SPRING ROLL SAUCE 200 ML                     ,139
+260210,THAI SWEET CHILLY SAUCE 200 ML                    ,139
+260211,THAI LIGHT SOY SAUCE 200 ML                       ,139
+260212,THAI HOT&SOUR SAUCE 200 ML                        ,139
+260213,THAI SPICY THAI CHILLI SAUCE 200 ML               ,139
+260214,ABBIE PERI PERI HOT SAUCE 155 ML                  ,250
+260215,ABBIE EXTRA PERI PERI HOT 155 ML                  ,250
+260216,ONG BLACK BEAN  SAUCE 227GM                       ,200
+260217,ONG BLACK PEPPER SAUCE 227 GM                     ,200
+260218,REMIA B B Q SAUCE 250ML                           ,175
+260219,SUNSWEET ORANGE ESSENCE 198GM                     ,300
+260220,SUNSWEET LEMON ESSENCE 198GM                      ,300
+260221,REMIA SALAD CREAM 250GM                           ,175
+260222,NEO BABY CORN 330G.                               ,130
+26027,CHAOKOH COCONUT MILK 400ML.                       ,160
+270001,MURG TOFU SOYA PANEER 200GM                       ,90
+270002,MURGI TOFU VEGETABLE 200 GM                       ,100
+280001,EGGS  1 PC                                        ,15
+280002,ORGANIC HARBAL EGGS 6PC                           ,70
+280003,ORGANIC OMEGA EGGS 6 PC                           ,80
+280004,ORGANIC BRUN EGGS 6 PC                            ,75
+280005,EGG FARM FRESH 10 PC                              ,80
+290001,GUS PASTA FUSILLI 500 GM                          ,129
+290002,GUS PASTA PENNE 500GM                             ,129
+300001,GINGER GARLIC PASTE 30 GM                         ,5
+300002,GINGER GARLIC PASTE 200 GM                        ,35
+300003,GREEN CHILLY JEERA PASTE 100 GM                   ,35
+300004,RED CHILLI PASTE 100 GM                           ,35
+300005,SMITH GINGER GARLIC PASTE 200G.                   ,38
+3100,PASTE FOR PASTE  NO SALE                          ,100
+3101,GREEN CHATNI  1 KG                                ,150
+3102,RED  PASTE 1 KG                                   ,140
+3103,FISH  TIKKA PASTE 1 KG                            ,220
+3104,GREEN  PASTE1 KG                                  ,140
+3105,RED CURRY PASTE 50G.                              ,60
+3106,GREEN CURRYB PASTE 50G.                           ,60
+320001,YAMMIEZ CHEESE CORN NUGG 400GM                    ,190
+320002,YAMMIEZ GARLIC FINGER 400GM                       ,185
+320003,YAMMIEZ CHEESE FINGERS 400 GM                     ,165
+330000,KING EDWARD CIGARS 1 PC                           ,350
+340000,RED L JUMBO PRAWNS 500 GM                         ,525
+340001,RED L LARGE PRAWNS  500  GM 1 PC                  ,425
+340002,RED MEDIAM PRAWNS 500 GM  1 PC                    ,375
+340003,RED  SMALL PRAWNS 500  GM 1PC                     ,260
+340004,RED L SQUID TUBE 500 GM 1 PC                      ,300
+340005,RED L SQUID RING 500 GM 1 PC                      ,300
+340006,RED L BABY OCTOPAS 500 GM 1 PC                    ,220
+340007,RED P/D  PRAWNS 500 GM 16/20                      ,625
+340008,RED  P/D PRAWNS TON 500 GM31/40PC                 ,525
+340009,RED  JUMBO PRAWNS 250GM                           ,273
+340010,RED  LARG PRAWNS 250 GM                           ,215
+340011,RED  MEDIUM PRAWNS 250 GM                         ,175
+340012,RED SMALL PRAWNS 250 GM                           ,150
+340013,RED LOBSTER FISH FINGER 200 GM                    ,110
+340014,RED LOBSTER BUT PRAWNS 200 GM                     ,135
+340015,RED LOBSTER FISH CUTLET 200 GM                    ,125
+340016,LOBSTER WHOLE 1 KG                                ,2000
+340017,RED FISH FILLET 250GM                             ,135
+340018,RED MAHA JUMBO 500 GM                             ,625
+3500,MUTTON BIRYANI 1 KG                               ,850
+3501,CHICKEN BIRYANI 1 KG                              ,600
+3502,MUTTON SEEK ROLL 1 PC                             ,60
+3503,CHICKEN SEEK ROLL 1 PC                            ,50
+400000,COKE  COLA 600  ML                                ,35
+400001,NO SALEEEEEEEEEEEE                                ,35
+400002,NO SALLLLLLLLLLLLLLLLLLLLLL                       ,35
+400003,NO SALEEEEEEEEEEEEEE                              ,35
+400004,MAAZA 600 ML 1PC                                  ,35
+400005,COKE ZERO 300 ML  1PC                             ,30
+400006,KINLEY SODA 600 ML 1 PC                           ,15
+400007,KINLEY WATER 1 LTR  1 PC                          ,18
+400010,COKE 2 LT                                         ,80
+400011,THUMPS UP 2 LT                                    ,80
+400012,FANTA 1.25 LT                                     ,55
+400013,SPRIT 1.25 LT                                     ,55
+400014,FANTA 600ML                                       ,35
+400015,FRESH COCONUT JUICE 300 ML                        ,75
+400016,THUM UP 1.25 LTR                                  ,55
+400017,LIMCA 2 LTR                                       ,80
+400018,DIET COKE 300  ML                                 ,30
+400019,SPRITE 2 LTR                                      ,80
+400020,THUMSUP 600 ML                                    ,35
+400021,SPRITE 600 ML                                     ,35
+400022,COKE 1.25 LTR                                     ,55
+400023,LIMCA  1.25  LTR                                  ,55
+400024,PAPER BOT AAMRAS 250 ML                           ,30
+400025,PAPER BOT AAM PANNA 250 ML                        ,30
+400026,PAPER BOT JALJEERA  250 ML                        ,30
+400027,PAPER BOT KOKUM 250ML                             ,30
+400028,LIMCA 600 ML                                      ,35
+400029,PAPER BOAT JAMUN 250 ML                           ,30
+400030,FANTA 2L.                                         ,80
+400031,PAPER BOAT CHILLED 250ML.                         ,30
+400032,PAPER BOAT GOLGAPPE 250ML.                        ,30
+400033,MC DOWELLS SODA 600ML.                            ,15
+400034,MC DOWELLS WATER 1L.                              ,20
+400035,NIMBOOZ 350ML.                                    ,20
+400036,RAUCH MULTI                                       ,75
+400037,RAUCH ORANGE                                      ,75
+400038,RAUCH POMME APPLE                                 ,75
+400039,RAUCH CRANBERRY                                   ,75
+400040,RAUCH TOMATO                                      ,75
+400041,MANGO PUNCH                                       ,15
+4100,PAPPER GLASH                                      ,2
+4100000,MOGU ORANGE                                       ,55
+4100001,MOGU MANGO                                        ,55
+4100002,MOGU GRAPE                                        ,55
+4100003,MOGU PINEAPPLE                                    ,55
+4100004,MOGU APPLE                                        ,55
+420000,CHINGS SCHEZWAN NOODLES 75GM                      ,15
+420001,CHINGS SINGAPORE  NOODLES 75 GM                   ,15
+4200010,CIRIO POMODORINI CHERRY T 400GM                   ,145
+420002,HOT GARLIC NOODLES 75 GM                          ,15
+420003,CHINGS MANCHURIAN 75 GM                           ,15
+420004,CHINGS EGG HAKKA NOODLES 150GM                    ,27
+420005,CHINGS VEG HAKKA NOODLES 150GM                    ,25
+420006,TABASCO MILD GREEN 60 ML                          ,200
+420007,SMITH & JONES GARLIC PASTE 200 GM                 ,38
+420008,SHAN HIMALAYA SALT 400GM                          ,120
+420009,CIRIO POLPA CON BASILICO 400GM                    ,140
+420010,CIRIO POMODORINI CHERRY T 400GM                   ,179
+420011,CIRIO PELATI 400 GM                               ,140
+420012,CIRIO POLPA  AGILO  GARLIC 400 GM                 ,140
+420013,CIRIO POLPA CHOPPED 400 GM                        ,140
+420014,CIRIO CHOPPED TOMA ERBE HERBS 400GM               ,140
+420015,CIRIO TOMATO PUREE 140 GM                         ,99
+420016,THAI CHOICE RICE PAPER 100 GM                     ,125
+420017,BEURRE PRESIDENTSALT BUTTER 200GM                 ,399
+420018,PRESIDENT UNSALTED BUTTER 200GM                   ,399
+420019,IMPERO MOZZARELLA  200 GM                         ,125
+420020,IMPERO PIZZA CHEESE  200GM                        ,125
+420021,CHINGS SWEET CHILLY SAUCE 200GM                   ,90
+420022,PRESIDENT CHEDDAR SANDW SLICE 200G                ,325
+420023,PRESIDENT BURGER CHEESE SLICE 200GM               ,325
+420024,GRAN SORESINA  CHEESE 200GM                       ,599
+420025,GINO TOSCHI BALSAMICO VINEG250 ML                 ,195
+420026,CHINGS GREEN CHILLY SAUCE 190GM                   ,45
+420027,CHINGS DARK SOY SAUCE 200GM                       ,45
+420028,CHINGS RED CHILLI SAUCE 200GM                     ,45
+420029,IMPERO GOUDA CHEESE 200GM                         ,195
+420030,ALEYNA SUNDRIED ROMATOES 100GM                    ,280
+420031,MONIN CURACAO BLU 250ML                           ,345
+420032,MONIN GRENADINE 250 ML                            ,345
+420033,MONIN POMME VERTE 250ML                           ,345
+420034,MONIN MOJITO MINT 250ML                           ,345
+420035,MONIN POMME VERTE  700ML                          ,695
+420036,MONIN TRIPLE SEC 700 ML                           ,695
+420037,MONIN IRISH 700 ML                                ,695
+420038,DELISH MANGO CRUSH 1 LTR                          ,145
+420039,DELISH BUTTERSCOTCH CRUSH 1 LTR                   ,130
+420040,DELISH STRAWBERRY CRUSH 1 LTR                     ,195
+420041,DILMAH GREEN TEA GINGER 50GM                      ,350
+420042,DILMAH GREEN TEA CARDAMON 50 GM                   ,375
+420043,DILMAH GREEN TEA MOROCCAN MINT 50GM               ,199
+420044,DILMAH  MINT 50 GM                                ,199
+420045,DILMAH GREEN PREMIUM TEA 50 GM                    ,150
+420046,AVEE WHITE OTS 1 KG JAR                           ,190
+420047,AVEE WHITE OTS 500 GM                             ,95
+420048,AVEE MUESLI MIX FRUIT                             ,199
+420049,DILMAH CINNMON GREEN TEA 50GM                     ,350
+420050,DILMAH SENCHA GREEN TEA 50GM                      ,300
+420051,DILMAH ENGLISH TEA 50 GM                          ,175
+420052,DILMAH JASMINE GREEN TEA 50GM                     ,300
+420053,DILMAH CEYLON GREEN TEA 50 GM                     ,199
+420054,DILMAH PEACH FLVOURED TEA 50G.                    ,199
+420055,DILMAH GINGER FLAVOURED 50G.                      ,199
+420056,DILMAH LEMON FLAVOURED 50G.                       ,199
+420057,CHING'S PAD THAI NOODLES G.C. 130G.               ,113
+420058,CHING'S PAD THAI NOODLES L.CH. 130G               ,115
+420059,CHING'S PAD THAI NOODLES EX. HOT130               ,115
+420060,CHIGN'S PAD THAI NOODLES ORIG. 130G               ,115
+420061,PASTAZARA COUS COUS 500G.                         ,260
+420062,HIMFLORA HONEY 400 GM                             ,275
+420063,HIMFLORA KASHMIR WHITE HONEY 250G.                ,165
+420064,MONIN STRAWBERRY 700 ML                           ,695
+420065,MONIN VANILLE 700 GM                              ,695
+420066,MONIN WATERMELON 700 GM                           ,695
+430000,NOSELLLLLLLLLLLLLLL                               ,115
+430001,KARIM 'S MUGHLAI PANEER 285 GM                    ,135
+430002,KARIM' S SHAI SUBZ BIRYANI 250 GM                 ,130
+430003,KARIM' S CHICKEN BIRYANI 250 GM                   ,165
+430004,KARIM'S CHICKEN STEW 285 GM                       ,175
+430005,KARIM' JALFREZI KARAHI CHI  285 GM                ,180
+430006,KARIM' BUTTER CHICKEN 285 GM                      ,180
+430007,KARIM' S AKBARI MURG MASALA 285 GM                ,175
+430008,KARIM' S NAHARI 285 GM                            ,175
+430009,KARIM' JAHANGIRI CHICKEN QORMA 285                ,180
+430010,KARIM DAL DARBARI 285 GM                          ,115
+440000,SWEET BUN 6PC                                     ,35
+440001,WHOLE WHEAT BURGER BUN 4PC                        ,45
+440002,HOT DOG ROLLS 4PC                                 ,40
+440003,BURGER BUN 6PC                                    ,40
+440004,DEHARADUNI BREAD TOAST                            ,50
+440005,FOCASSIA BREAD                                    ,50
+440006,BURGER BUN 4PC                                    ,35
+440007,GARLIC LOAF BREAD                                 ,65
+440008,KULCHA                                            ,35
+440009,BROWN BREAD                                       ,55
+440010,MULTI GRAIN BREAD                                 ,65
+440011,GARLIC BREAD                                      ,55
+440012,WHEAT PIZZA BASE 2PC                              ,30
+440013,THIN CRUST PIZZA BASE 3PC B/W                     ,40
+440014,ALMOND COOKIES 300GM                              ,100
+440015,NUTTY COOKIES 300GM                               ,100
+440016,KAJU PISTA COOKIES300GM                           ,90
+440017,PISTA KHATAI COOKIES 300GM                        ,90
+440018,ATTA COOKIES 300GM                                ,90
+440019,CRUNCHY COOKIES 300GM                             ,90
+440020,ONION CHEEZ LOAF BREAD 300GM                      ,60
+440021,PANEER LOAF BREAD 230GM                           ,60
+440022,HEALTHY WHOLE WHEAT BREAD 400GM                   ,55
+440023,DINNER ROLL BUN 200GM                             ,30
+440024,ATTA COOKIES S/F 300GM                            ,100
+440025,BREAD CRUMBS 250GM                                ,30
+440026,MILK  BREAD 400GM                                 ,50
+440027,PAO BUN                                           ,35
+440028,CHOCOLATE WALNUT CAKE 300GM                       ,160
+440029,FRESH FRUIT CAKE 300GM                            ,160
+440030,VANILLA CAKE 300GM                                ,160
+440031,SOUP BALL BUN 100GM                               ,40
+440032,SOUP STICK 100GM                                  ,35
+440033,BROWNIE 70G                                       ,45
+440034,FRUIT MUFFINE 50G                                 ,30
+440035,CHOCOLATE MUFFINE 50G                             ,30
+440036,WHITE JUMBO BREAD 300GM                           ,45
+440037,BROWN JUMBO BREAD 300GM                           ,45
+440038,WHOLE WHEAT DALIYA BREAD 400GM                    ,60
+440039,WHEAT BREAD TOST S/F                              ,70
+440040,GARLIC BREAD STICK                                ,60
+440041,MULTIGRAIN COOKIES 300GM                          ,90
+440042,DEHRADUNI BREAD TOAST 300G.                       ,45
+440043,MASALA NAAN 4PCS                                  ,40
+440044,MASHROOM LOAF BREAD 230G                          ,60
+440045,PIZZA BASE 8P.B/W SMALL                           ,40
+440046,MULTIGRAIN BURGER BUN4P.                          ,40
+440047,MARVEL CAKE 300G.                                 ,150
+440048,SWEET BUN 2PCS                                    ,15
+440049,MILK CAKE RUSK FRUIT 250G.                        ,90
+440050,MASALA NAMAK PARA 300G.                           ,70
+440051,METHI MATTHI LARGE 300G.                          ,70
+440052,GOL MATTHI 300G.                                  ,60
+440053,MINI SAMOSA 300G.                                 ,70
+440054,METHI MATTHI SMALL 400G.                          ,80
+440055,JEERA AJWAINE COOKISE 300G.                       ,90
+440056,JAM DRY FRUIT COOKIES 300G.                       ,100
+440057,COCONUT COOKIES 300GM                             ,90
+440058,LAVAS 100G.                                       ,35
+440059,OAT COOKIES 300G.                                 ,90
+440060,CHOCO CHIP COOKIES 300G.                          ,90
+440061,BROWNIE COOKIES 300G.                             ,90
+440062,VANILLA MUFFINE 70G.                              ,30
+4400623,WHITE PIZZA BASE 2PCS.                            ,40
+440063,WHITE PIZZA BASE 2PCS.                            ,40
+440064,POTATO CHIPS 160 GM                               ,60
+440065,FRUIT BREAD 400G.                                 ,55
+440066,OATMEAL BREAD 400G.                               ,60
+440067,FRENCH HEART 300G.                                ,90
+450001,MAX PROTEIN CHOCO FUDGE 75G.                      ,100
+450002,MAX PROTEIN CHOCO SLIM 67G.                       ,100
+450003,RITE SUGAR LESS CHOCO LITE 27G.                   ,25
+450004,RITE SPORTS BAR 40G.                              ,30
+450005,RITE CHOCO DELITE                                 ,25
+450006,RITE WORK OUT GYMNASIUM BAR 50G.                  ,50
+4501,RARA CHIKEN 1KG.                                  ,560
+4502,PP BUTTER CHIKEN 1KG.                             ,560
+4503,PP TAWA CHIKEN 1KG.                               ,560
+4504,HONEY CHIKEN 1KG.                                 ,560
+460001,GREEN GIANT NIBLETS SWEET CORN 198G               ,95
+460002,GREEN GIANT NIBLETS SWEET CORN 340G               ,140
+460003,PILLSBURY MILK CHOCO SPREAD                       ,160
+460004,BETTY CRO. PANCAKE MIX ORIGINAL 1KG               ,355
+460005,BETTY CRO. PANCAKE MIX ORIGINAL 500               ,185
+460006,BETTY CHEESECAKE MIX BLUEBERRY360G                ,280
+460007,BETTY CHOCO FUDGE BROWNIE MIX 395G.               ,250
+460008,BETTY CHOCO FUDGE CAKE MIX 475G.                  ,250
+460009,BETTY DEVIL'S FOOD CAKE MIX 475G.                 ,250
+460010,PILLS. FRIDGE CHEESECAKE 165G.                    ,125
+460011,PILLS. MOIST SUPREME VANILLA 225G.                ,115

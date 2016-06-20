@@ -1,0 +1,5 @@
+c:\Developement\Billing\BillingLib\bin\Release\BillingLib.dll
+c:\Developement\Billing\BillingLib\bin\Release\BillingLib.pdb
+c:\Developement\Billing\BillingLib\obj\Release\BillingLib.csprojResolveAssemblyReference.cache
+c:\Developement\Billing\BillingLib\obj\Release\BillingLib.dll
+c:\Developement\Billing\BillingLib\obj\Release\BillingLib.pdb

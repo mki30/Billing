@@ -1,0 +1,1310 @@
+/* -------------------------------------------------------------------------------------------------------------------
+   GLOBAL - FONTS
+   ------------------------------------------------------------------------------------------------------------------- */
+		
+	@font-face {
+		font-family: 'FG_B';
+		src: url("fonts/FranklinGothic-Book-webfont.eot");
+		src: url("fonts/FranklinGothic-Book-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/FranklinGothic-Book-webfont.woff") format("woff"), url("fonts/FranklinGothic-Book-webfont.ttf") format("truetype"), url("fonts/FranklinGothic-Book-webfont.svg#FranklinGothicFSBookRegular") format("svg");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'FG_MC';
+		src: url("fonts/FranklinGothic-MedCd-webfont.eot");
+		src: url("fonts/FranklinGothic-MedCd-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/FranklinGothic-MedCd-webfont.woff") format("woff"), url("fonts/FranklinGothic-MedCd-webfont.ttf") format("truetype"), url("fonts/FranklinGothic-MedCd-webfont.svg#FranklinGothicFSMedCdRegular") format("svg");
+		font-weight: normal;
+		font-style: normal;
+	}
+html{-ms-overflow-style: scrollbar;}
+
+#shopping-list-widget{width:100%;height:100%;display:none;font-family: arial;}
+
+/*Over-riding custom styles set by parent website to default styles*/
+.sl-shopping-list-open, .sl-shopping-list-open *{color: #DD1321 !important;}
+#shopping-list-widget{line-height:normal;color:#575A5D;background-color:#fff;}
+#shopping-list-widget *{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#shopping-list-widget .sl-btn{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+#shopping-list-widget input, #shopping-list-widget button, #shopping-list-widget select, #shopping-list-widget textarea{line-height:normal;}
+.sl-active-list .sl-item *{cursor: pointer;}
+.sl-completed-header{font-size: 16px;line-height: normal;}
+/*End of over-riding style*/
+
+#sl-container{
+	display:none;
+	background: #f2f2f2;
+	position: fixed;
+	right: -383px;
+	top: 0px;
+	width: 383px;
+	height: 636px;/*636px*/
+	-webkit-box-shadow: -1px 3px 8px 0px rgba(158,156,158,1);
+	-moz-box-shadow: -1px 3px 8px 0px rgba(158,156,158,1);
+	-ms-box-shadow: -1px 3px 8px 0px rgba(158,156,158,1);
+	box-shadow: -1px 3px 8px 0px rgba(158,156,158,1);
+	z-index:1;
+}
+#sl-overlay{position: fixed;background: #ffffff;width: 100%;height: 100%;margin: auto;left: 0px;right: 0px;bottom: 0px;top: 0px;opacity: 0.8;filter: alpha(opacity=80);z-index:1000;}
+.sl-spinner{background: #ffffff url(https://static.meijer.com/mPerks/images/shoppinglist/v1/img/ajaxloader.gif) center 45% no-repeat;display:block;position:absolute;left: 0px;right: 0px;bottom: 0px;top: 0px;z-index:1;}
+
+#sl-add-form.sl-locked, .sl-more.sl-locked, .sl-active-list.sl-locked, .sl-completed-list.sl-locked, .sl-skip-tutorial.sl-locked, .sl-fav-div.sl-locked{visibility:hidden;}
+.sl-list-layer.sl-locked{background: url(https://static.meijer.com/mPerks/images/shoppinglist/v1/img/ajaxloader.gif) center 50px no-repeat;height:150px;overflow:hidden;}
+
+.sl-header{
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+	height: 60px;
+  	margin: 0px;
+}
+
+.sl-header-text{
+	font-family: 'FG_B';
+	font-size: 20px;
+	color: #575A5D;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.sl-close{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -158px 8px;
+  	width: 60px;
+  	height: 60px;
+  	float: left;
+  	margin: 0;
+  	cursor: pointer;
+}
+.sl-more{
+	width: 60px;
+	height: 60px;
+	font-size: 12px;
+	cursor:pointer;
+	color:#90908D;
+	line-height: 75px;
+	float: right;
+}
+.sl-more:before{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -215px -61px;
+  	content: " ";
+  	width: 26px;
+  	height: 7px;
+	position: absolute;
+  	top: 23px;
+  	right: 17px;
+}
+
+#sl-add-form, #sl-add-fav-form{
+	position: relative;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+#sl-add-fav-form{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#sl-add-form input, .sl-item .sl-title-edit, #sl-add-fav-form input{
+	border: 0;
+	padding: 18px 20px;
+	width: 100%;
+	font-size: 15px;
+	color: #575A5D;
+	outline: none;
+	box-sizing: border-box;
+}
+#sl-add-form input, #sl-add-fav-form input{
+	padding: 16px 45px 17px 20px;	
+}
+#sl-add-form input::-webkit-input-placeholder,#sl-add-form input:-ms-input-placeholder,#sl-add-form input::-moz-placeholder,
+#sl-add-fav-form input::-webkit-input-placeholder,#sl-add-fav-form input:-ms-input-placeholder,#sl-add-fav-form input::-moz-placeholder{
+  color: #cccccc;
+  font-style: normal;
+  font-size: 15px;
+}
+
+#sl-add-form input.sl-placeholder, #sl-add-fav-form input.sl-placeholder, #sl-email-modal input.sl-placeholder, #sl-edit-modal textarea.sl-placeholder{
+	color: #cccccc;
+}
+#sl-add-form input:-ms-input-placeholder, .sl-item .sl-title-edit:-ms-input-placeholder, #sl-add-fav-form input:-ms-input-placeholder {
+    color : #cccccc;
+}
+.sl-ie #sl-add-form input,.sl-ie #sl-add-fav-form input{
+	width: 89%;
+	padding-right:0px;
+}
+#shopping-list-widget input[type=text]::-ms-clear,#shopping-list-widget input[type=password]::-ms-reveal{
+  display: none;
+}
+#sl-add-form button, #sl-add-fav-form button{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -40px 2px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 0px;
+	top: 0px;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+}
+#sl-add-form button.sl-disable,#sl-add-fav-form button.sl-disable{background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -80px 2px;cursor:default;}
+#sl-add-form button.sl-disable.sl-processing, #sl-add-fav-form button.sl-disable.sl-processing{background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/loader-small.gif') no-repeat center;}
+
+#shopping-list-widget .sl-fav-focus{
+	/* position:absolute; */
+	width:100%;
+	padding: 9px 20px;
+	background: #ffffff;
+	border-top: 2px solid #cccccc;
+	margin-top:2px;
+	cursor:pointer;
+	display:none;
+	z-index: 1;
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+}
+.sl-fav-focus .sl-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center #f2f2f2;
+	background-position: -49px -49px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.sl-fav-focus .sl-text{
+	font-weight: bold;
+	color: #6a6d70;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.sl-list-layer, .sl-fav-layer{overflow-y: auto; overflow-x: hidden;-webkit-overflow-scrolling: touch;}
+/*iphone 4s fix- for div is hidden on display block*/
+.sl-fav-layer .sl-items-holder, .sl-fav-div{-webkit-transform: translate3d(0, 0, 0);} 
+
+/*Webkit styles for scrollbar*/
+/* .sl-list-layer::-webkit-scrollbar {width: 12px;}
+.sl-list-layer::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);-webkit-border-radius: 10px;border-radius: 10px;}
+.sl-list-layer::-webkit-scrollbar-thumb {-webkit-border-radius: 10px;border-radius: 10px;background: rgba(255,0,0,0.8);-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+.sl-list-layer::-webkit-scrollbar-thumb:window-inactive {background: rgba(255,0,0,0.4);} */
+
+.sl-scrollbar::-webkit-scrollbar-button{width: 0;height: 0;display: none;}
+.sl-scrollbar::-webkit-scrollbar-corner{background-color: transparent;}
+.sl-scrollbar::-webkit-scrollbar {width: 10px;height: 10px;}
+.sl-scrollbar::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,0.2);-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.10),inset 0 -1px 0 rgba(0,0,0,0.07);	border-radius:10px;}
+.sl-scrollbar::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+
+.sl-item .sl-item-view{
+	min-height: 50px;
+	background: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;
+	position: relative;
+}
+
+.sl-item-view .sl-c1, #sl-favorite-modal .sl-items-holder .sl-item .sl-c1{
+	display: inline-block;
+	width: 60px;
+	float: left;
+}
+#sl-favorite-modal .sl-items-holder .sl-item .sl-c1{
+  	width: 50px;
+}
+.sl-item-view .sl-c2, #sl-favorite-modal .sl-items-holder .sl-item .sl-c2{
+	/*display: table;*/
+	width: 75%;
+	height: 50px;
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.sl-item .sl-checkbox {
+	border: 1px solid #989798;
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 14px 20px;
+}
+.sl-item .sl-c1.sl-active .sl-checkbox{background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;background-position: -137px -13px;}
+.sl-item.sl-processing .sl-checkbox{border:none;background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/loader-small.gif') no-repeat center;}
+
+.sl-item .sl-title{
+	color:#575A5D;
+	font-size: 15px;
+	/* display: table-cell; */
+	display:block;
+	vertical-align: middle;
+	word-break: break-word;
+	min-height:16px;
+	max-height:32px;
+	overflow: hidden;
+	margin-top: 5px;
+	position:relative;
+	line-height: 16px;
+}
+.sl-item.sl-has-weekly-ads .sl-title{
+	padding-right: 50px;
+}
+.sl-ie .sl-item .sl-title,.sl-ie  .sl-fav-item .sl-title,.sl-ie .sl-item .sl-note{
+	word-break: break-all;
+}
+.sl-item .sl-title-edit{
+	color: #6a6d70;
+	font-size: 15px;
+	padding: 17px 0;
+}
+.sl-item .sl-note{
+	font-size: 13px;
+	color: #cccccc;
+	display: block;
+	max-height:17px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	word-break:break-word;
+	line-height: 16px;
+	position: relative;
+	min-width: 230px;
+}
+.sl-item.sl-has-weekly-ads .sl-note{
+	padding-right: 50px;
+}
+.sl-item .sl-title.sl-two-line{max-height:32px;}
+.sl-ie9 .sl-item .sl-title.sl-two-line{max-height:32px;}
+
+.sl-item .sl-two-line:before, .sl-item .sl-note.sl-fade-line:before{
+	content: '';
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -3px -167px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 95px;
+	height: 17px;
+}
+.sl-item .sl-note.sl-fade-line:before{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -3px -170px;
+	height: 17px;
+	bottom: 0px;
+}
+.sl-ie9 .sl-item .sl-note.sl-fade-line:before{
+	bottom: 6px;
+}
+.sl-item.sl-has-weekly-ads .sl-two-line:before, .sl-item.sl-has-weekly-ads .sl-note.sl-fade-line:before{
+	right: 50px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .sl-item .sl-title.sl-two-line{max-height:33px;}
+   .sl-item .sl-two-line:before, .sl-item .sl-note.sl-fade-line:before{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -3px -167px;
+		height: 18px;
+   }
+}
+
+.sl-completed-list .sl-item .sl-two-line:before, .sl-existing-fav .sl-item .sl-two-line:before{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -3px -191px;
+}
+.sl-item-desc{
+	-webkit-box-shadow: inset 0 20px 20px -20px rgba(128, 128, 128, 0.8);
+	-moz-box-shadow: inset 0 20px 20px -20px rgba(128, 128, 128, 0.8);
+	-ms-box-shadow: inset 0 20px 20px -20px rgba(128, 128, 128, 0.8);
+	box-shadow: inset 0 20px 20px -20px rgba(128, 128, 128, 0.8);
+}
+.sl-item-desc .sl-r1{
+	border-bottom: 1px solid #cccccc;
+}
+
+.sl-item-desc .sl-add-note{
+	width: 100%;
+	outline: none;
+	border: 0;
+	background: transparent;
+	height: 52px;
+	padding: 0 20px;
+	color: #6a6d70;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.sl-item-desc .sl-r2{
+	height: 42px;
+	color: #6a6d70;
+	font-size: 10px;
+	padding: 8px 20px 0px;
+	border-bottom: 1px solid #cccccc;
+}
+.sl-item-desc .sl-r2 .sl-qty-div{
+	display: inline-block;
+	text-align: center;
+}
+.sl-item-desc .sl-r2 .sl-actions{
+	display: inline-block;
+	float: right;
+}
+.sl-item-desc .sl-quantity{
+	outline: 0;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	width: 35px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	color: #6a6d70;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.sl-item input.sl-placeholder{color:#ccc;}
+.sl-icon{
+	width: 35px;
+	height: 35px;
+	display:inline-block;
+}
+.sl-actions .sl-fav-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png') no-repeat center;
+  	cursor: pointer;
+  	background-position: -4px -49px;
+ 	margin-right: 10px;
+}
+.sl-actions .sl-fav-icon.sl-active{
+	background-position: -46px -49px;
+}
+.sl-actions .sl-delete-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png') no-repeat center;
+	background-position: -212px -8px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 10px;
+}
+.sl-actions .sl-done{
+	color: #51B74A;
+  	font-size: 14px;
+  	font-family: arial;
+  	vertical-align: top;
+  	padding: 8px 0;
+  	display: inline-block;
+  	cursor: pointer;
+}
+.sl-item .sl-item-view .sl-c3, .sl-item .sl-item-desc{
+	display: none;
+}
+
+.sl-fav-div{
+	text-align: center;
+	padding: 45px 90px;
+}
+.sl-fav-div .sl-text{
+	color:#a8a8a8;
+	font-family: arial;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 10px;
+}
+.sl-fav-div a{
+	display: block;
+	font-family: arial;
+	color: #51b74a;
+	font-weight: bold;
+	font-size: 13.89px;
+	text-decoration: underline;
+}
+.sl-fav-div .sl-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;
+	background-position: -47px -47px;
+	margin: 0 auto;
+	display: block;
+}
+.sl-btn{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'FG_B';
+	outline: none;
+	cursor: pointer;
+}
+.sl-green-btn{
+	background: #44ad3a;
+}
+.sl-blue-btn{
+	background: #0a4d8c;
+}
+.sl-red-btn{
+	background: #DD1321;
+}
+.sl-invisible-btn{width: 1px;height: 1px;opacity: 0;padding: 0;border: 0;margin: 0;}
+
+#sl-active-list .sl-items-holder{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.sl-active-list .sl-item{
+	-moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: relative;
+}
+.sl-item.slip-reordering {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.45);
+	border: 1px solid green;
+}
+#sl-active-list .sl-instant{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 20px;
+  cursor: move;
+  display: none;
+}
+#sl-active-list .sl-item:hover .sl-instant{display:block;}
+
+#sl-active-list .sl-instant:before{
+	content: '';
+	width: 12px;
+	height: 30px;
+	position: absolute;
+	top: 11px;
+	left: 4px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjcxMTUwNUUxRjQ4MzExRTRBODgyRTRGQjA4OTZCQ0JGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjcxMTUwNUUyRjQ4MzExRTRBODgyRTRGQjA4OTZCQ0JGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzExNTA1REZGNDgzMTFFNEE4ODJFNEZCMDg5NkJDQkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NzExNTA1RTBGNDgzMTFFNEE4ODJFNEZCMDg5NkJDQkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6X3zROAAAAc0lEQVR42mL09PSUY2BgmAPElkB8HIhTgPgRAwRgldu2bRsDE5AxF4hdgZgHSi9kQACcciCNFgyowAqJjVMOpPEEmuQxJDZOOZDGZCDeA8RfoXQCkkKccizQgHBlwA5wyjH+//+fgRzACIwOkjWBogMgwABmRh9d6VxB6QAAAABJRU5ErkJggg==);
+}
+
+
+.slip-swiping-container {
+    overflow-x: hidden;
+}
+
+.sl-completed-header, .sl-existing-header{
+	border: 1px solid #cccccc;
+	border-width: 1px 0 1px ;
+	padding: 6px 20px 0px;
+	color: #86888b;
+	position: relative;
+}
+
+.sl-completed-header .sl-title, .sl-existing-header .sl-title{
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: top;
+	color:#575A5D;
+}
+.sl-completed-header .sl-clear{
+	float: right;
+	font-size: 13px;
+	cursor: pointer;
+	color:#989798;
+}
+.sl-completed-list{display:none;}
+.sl-completed-list .sl-item .sl-title{
+	text-decoration: line-through;
+	color: #989798;
+	font-size: 15px;
+}
+.sl-completed-list .sl-item .sl-note{
+	text-decoration: line-through;
+	visibility: hidden;
+}
+.sl-completed-list .sl-item .sl-item-view{
+	background: none;
+	cursor: default;
+}
+.sl-completed-list .sl-item .sl-c1{
+	cursor: pointer;
+}
+.sl-completed-list .sl-checkbox{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;
+	background-position: -137px -13px;
+}
+.sl-completed-list .sl-c1.sl-active .sl-checkbox{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/loader-small.gif') no-repeat center;
+	border:none;
+}
+.sl-completed-list .sl-item-view .sl-c2{
+	cursor: default;
+}
+.sl-more-options{
+	display: none;
+	position: absolute;
+	right: 10px;
+	z-index: 2;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin: 10px 0 0;
+	padding: 0;
+	list-style: none;
+	width: 182px;
+	text-align: left;
+	color: #989798;
+	font-size: 14px;
+	background: #ffffff;
+	box-shadow: -1px 0px 0px 0px rgba(187, 187, 187, 1);
+	-webkit-box-shadow: -1px 0px 0px 0px rgba(187, 187, 187, 1);
+	-moz-box-shadow: -1px 0px 0px 0px rgba(187, 187, 187, 1);
+	-ms-box-shadow: -1px 0px 0px 0px rgba(187, 187, 187, 1);
+}
+
+.sl-more-options li{
+	padding: 12px 10px;
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.sl-more-options:before, .sl-more-options:after{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.sl-more-options:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #cccccc;
+	border-width: 7px;
+	margin-left: 64px;
+}
+.sl-more-options:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #ffffff;
+	border-width: 6px;
+	margin-left: 65px;
+}
+.sl-more-options li.sl-disable{
+	cursor: default;
+}
+.sl-more-options li:hover, .sl-more-options li.sl-active, .sl-more-options li.sl-disable{
+	background: #e5e5e5;
+}
+
+.sl-more-options li:before{
+  	content: " ";
+	display: inline-block;
+  	margin-right: 8px;
+  	vertical-align: middle;
+}
+.sl-more-options .sl-view-fav:before{
+  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -15px -98px;
+	width: 17px;
+	height: 14px;
+}
+.sl-more-options .sl-clear-list:before{
+  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -16px -139px;
+	width: 13px;
+	height: 17px;
+}
+.sl-more-options .sl-share-email:before{
+  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -57px -97px;
+	width: 15px;
+	height: 14px;
+}
+.sl-more-options .sl-print:before{
+  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -97px -98px;
+	width: 16px;
+	height: 14px;
+}
+
+/*Modal*/
+.sl-modal/* :before  */{/* content: ""; */display: none;background: rgba(0, 0, 0, 0.6);position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 1003;}
+.sl-modal.open/* :before */ {display: block;}
+.sl-modal.open .sl-modal-dialog {-webkit-transform: translate(0, 0);-ms-transform: translate(0, 0);transform: translate(0, 0);top: 20%;}
+.sl-modal-dialog {background: #f2f2f2;
+	border-radius: 5px;
+	margin-left: -200px;
+	position: fixed;
+	left: 50%;
+	top: -100%;
+	z-index: 11;width: 400px;
+	-webkit-transform: translate(0, -500%);
+	-ms-transform: translate(0, -500%);
+	transform: translate(0, -500%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	text-align: center;
+	/* -webkit-box-shadow: -3px 3px 5px rgba(0,0,0,.8);
+	-moz-box-shadow: -3px 3px 5px rgba(0,0,0,.8);
+	-ms-box-shadow: -3px 3px 5px rgba(0,0,0,.8);
+	-o-box-shadow: -3px 3px 5px rgba(0,0,0,.8);
+	box-shadow: -3px 3px 5px rgba(0,0,0,.8); */
+}
+.sl-modal-header, .sl-modal-footer {
+	padding: 10px 20px;
+}
+.sl-modal-header h2, .sl-modal-body p{
+	font-size: 14px;
+	/*font-family: arial;*/
+	color: #575A5D;
+	font-weight: normal;
+}
+.sl-modal-body{
+	min-height: 100px;
+  	padding: 25px 40px 5px 40px;
+}
+.sl-modal-body p{
+	margin: 15px auto;
+}
+.sl-modal-footer {background: #e5e5e5;
+	border-top: #cccccc solid 1px;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+  	border-bottom-right-radius: 5px;
+	height: 40px;
+}
+.sl-modal-close{
+  	position: absolute;
+  	top: 5px;
+  	right: 5px;
+  	cursor: pointer;
+  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;
+  	background-position: -170px -47px;
+  	width: 35px;
+  	height: 35px;
+}
+.sl-left-btn{
+	float: left;
+  	width: 35%;
+  	background: none;
+  	color: #90908D;
+  	font-size: 14px;
+  	font-family: arial;
+}
+.sl-modal-ok{
+	width: 55%;
+	margin-right: -16%;
+	font-family:'FG_B';
+	font-size: 14px;
+}
+.sl-modal button{cursor:pointer;}
+.sl-modal button.sl-disable{cursor:default;opacity:0.75;}
+
+.sl-print-image{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -127px -86px;
+	width: 132px;
+	height: 162px;
+}
+/*Print modal*/
+#sl-print-modal p{
+	margin-top: -25px;
+}
+#sl-print-modal iframe{display:none;} 
+/*Email modal*/
+
+.sl-ie9 #sl-email-modal{
+	width: 490px;
+	margin-left: -230px;
+}
+#sl-email-modal p{
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 1.5;
+}
+#sl-email-modal input{
+	width: 100%;
+	height: 35px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 22px;
+	margin-bottom: 26px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	padding-right: 35px;
+	outline: none;
+	box-sizing: border-box;
+	font-size:14px;
+} 
+#sl-favorite-modal{
+	margin-left: -280px;
+	width: 540px;
+	height: 520px;
+	top:10%;
+}
+#sl-favorite-modal .sl-modal-header{
+	background: #f2f2f2;
+	text-align: left;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+#sl-favorite-modal .sl-modal-header h2{
+	font-family: 'FG_MC';
+	font-size: 21.58px;
+	color: #0A4D8C;
+}
+#sl-favorite-modal .sl-modal-header .sl-fav-header{
+	margin: 10px 0 0px;
+}
+#sl-favorite-modal .sl-modal-header p{
+ 	margin-top: 0;
+  	font-size: 11px;
+  	color: #90908D;
+}
+#sl-favorite-modal .sl-modal-body{
+	padding: 0;
+	text-align: left;
+}
+#sl-favorite-modal .sl-modal-footer{
+ 	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	padding: 0;
+  	height: 60px;
+ 	padding-top: 20px;
+ 	border-width: 2px;
+}
+#sl-favorite-modal .sl-items-holder .sl-item{
+	min-height: 50px;
+	background: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;
+}
+#sl-favorite-modal .sl-item .sl-title{
+	margin-top: 0px;
+	padding-right: 20px;
+}
+#sl-favorite-modal .sl-item .sl-title.sl-two-line:before{height:15px;}
+#sl-favorite-modal .sl-active-holder .sl-item .sl-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -6px -4px;
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+}
+#sl-favorite-modal .sl-item .sl-icon{
+	margin: 5px 6px;
+}
+#sl-favorite-modal .sl-active-holder .sl-item.sl-active .sl-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -48px -4px;
+}
+#sl-favorite-modal .sl-fav-edit{display:none;}
+#sl-favorite-modal .sl-fav-edit .sl-item .sl-icon{
+ 	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;
+ 	background-position: -128px -46px;
+}
+#sl-favorite-modal .sl-fav-edit .sl-item.sl-active .sl-icon{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat center;
+	background-position: -87px -46px;
+}
+#sl-favorite-modal .sl-items-holder .sl-item .sl-icon.sl-disable{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1') no-repeat -88px -6px;
+}
+.sl-existing-fav{
+	background: #f2f2f2;
+	display:none;
+}
+.sl-existing-header{
+	text-align: left;
+}
+#sl-favorite-modal .sl-existing-fav .sl-item{
+	background: transparent;
+	cursor: default;
+}
+#sl-favorite-modal .sl-existing-fav .sl-item .sl-c1{
+	display: none;
+}
+.sl-existing-fav .sl-item .sl-title{
+	font-size: 15px;
+	font-family: arial;
+	color: #989798;
+	font-style: italic;
+	display: block;
+  	word-break: break-word;
+  	padding: 0 20px;
+}
+.sl-weekly-ads{
+	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites.png?v=1.1');
+	background-position: -36px -123px;
+	width: 50px;
+	height: 48px;
+	position: absolute;
+  	right: 0;
+  	top: 0;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #sl-favorite-modal .sl-item .sl-title.sl-two-line{min-height:32px;max-height:32px;line-height:1;}
+   .sl-existing-fav .sl-item .sl-title{line-height:1;}
+   .sl-existing-fav .sl-item .sl-title.sl-two-line{min-height:32px; max-height:32px;line-height:1}
+}
+#sl-favorite-modal .sl-left-btn{
+	font-family: 'FG_B';
+	text-align: left;
+  	margin-left: 25px
+}
+#sl-favorite-modal .sl-add-list.sl-disable, #sl-favorite-modal .sl-remove-fav.sl-disable{
+	background: #cccccc;
+}
+#sl-favorite-modal .sl-edit-fav-header, #sl-favorite-modal .sl-done, #sl-favorite-modal .sl-remove-fav, #sl-favorite-modal .sl-existing-fav .sl-item .sl-c1,
+#sl-favorite-modal.sl-edit-favourites .sl-fav-header, #sl-favorite-modal.sl-edit-favourites .sl-edit, #sl-favorite-modal.sl-edit-favourites .sl-add-list, #sl-favorite-modal.sl-edit-favourites .sl-fav-list, #sl-favorite-modal .sl-fav-edit, #sl-favorite-modal.sl-edit-favourites .sl-modal-header p{
+	display: none;
+}
+#sl-favorite-modal.sl-edit-favourites .sl-edit-fav-header, #sl-favorite-modal.sl-edit-favourites .sl-done, #sl-favorite-modal.sl-edit-favourites .sl-remove-fav,
+#sl-favorite-modal .sl-fav-header, #sl-favorite-modal.sl-edit-favourites .sl-fav-edit, #sl-favorite-modal .sl-fav-list, #sl-favorite-modal .sl-modal-header p{
+	display: block;
+}
+#sl-favorite-modal .sl-add-list, #sl-favorite-modal .sl-remove-fav{
+	float: right;
+	margin-right: 20px;
+}
+#sl-confirmation-modal .sl-modal-ok{
+	margin-right: 0;
+}
+#sl-email-form p.sl-error-msg, #sl-email-form p.sl-empty-msg{
+	display: none;
+}
+#sl-email-form.sl-error input, #sl-email-form.sl-empty-mail input{
+	border: 1px solid #E62B2B;
+	background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20enable-background%3D%22new%200%200%2020%2020%22%20width%3D%2220%22%20height%3D%2220%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20fill%3D%22%23E11E26%22%20d%3D%22M19%2015.1l-7-12.2c-1.1-1.9-2.9-1.9-4%200l-7%2012.2c-1.1%201.9-.2%203.5%202%203.5h14.1c2.1%200%203-1.6%201.9-3.5zm-8.9%201.3c-.7%200-1.2-.5-1.2-1.2s.5-1.2%201.2-1.2%201.2.5%201.2%201.2-.5%201.2-1.2%201.2zm.8-3.2h-1.7l-.6-7.1h2.9l-.6%207.1z%22%2F%3E%3C%2Fsvg%3E%0A") no-repeat;
+	background-position: 98% 50%;
+  	background-size: 20px 20px;
+  	background-color: #ffffff;
+	
+}
+#sl-email-form.sl-error p.sl-error-msg, #sl-email-form.sl-empty-mail p.sl-empty-msg{
+	display: block;
+  	color: #E62B2B;
+  	margin: 0;
+}
+/* .sl-skip-tutorial{
+	text-align: center;
+  	padding: 35px 15px;
+	display:none;
+}
+.sl-skip-tutorial p{
+	color: #a8a8a8;
+  	font-size: 13px;
+  	padding-bottom: 15px;
+} */
+.sl-desktop{
+	display: block;
+}
+.sl-mobile{
+	display: none;
+}
+#sl-edit-modal{
+	text-align: left;
+	background: #ffffff;
+	width: 410px;
+}
+#sl-edit-modal hr{
+	margin-right: -20px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	background: #cccccc;
+	height: 1px;
+  	border: none;
+}
+#sl-edit-modal .sl-modal-footer{
+  	padding: 15px 20px 5px 20px;
+}
+#sl-edit-modal .sl-modal-footer.sl-delete-mode{
+  	padding: 10px 20px;
+}
+#sl-edit-modal .sl-modal-footer.sl-delete-mode .sl-delete-btn{
+	float: right;
+	width: 55%;
+}
+#sl-edit-modal .sl-modal-footer button, #sl-edit-modal .sl-modal-footer.sl-delete-mode .sl-qty-div, #sl-edit-modal .sl-modal-footer.sl-delete-mode .sl-actions{
+	display: none;
+}
+#sl-edit-modal .sl-modal-footer.sl-delete-mode button{
+	display: inline-block;
+}
+#sl-edit-modal textarea{
+	width: 100%;
+	color: #4C4C4C;
+  	font-size: 14px;
+  	font-family: arial;
+  	border: none;
+  	outline: none;
+  	resize: none;
+	min-height:32px;
+}
+#sl-edit-modal textarea.sl-title-edit{padding:0px;}
+#sl-edit-modal .sl-title-wrapper b{font-size:14px;color:#000;position:absolute;display: inline-block;margin: -1px 0px 0px 0px;}
+#sl-edit-modal textarea.sl-add-note{
+	font-size: 13px;
+  	color: #A8A8A8;
+}
+#sl-edit-modal .sl-title-wrapper{
+	padding-top: 10px;
+}
+#sl-edit-modal .sl-modal-body{
+  	padding: 10px 20px 5px 20px;
+  	min-height: 130px;
+}
+#sl-edit-modal .sl-qty-div{
+	float: left;
+	width: 25%;
+	text-align: left;
+}
+#sl-edit-modal .sl-actions{
+  	display: inline-block;
+ 	float: right;
+ 	width: 40%;
+ 	text-align: right;
+}
+#sl-edit-modal .sl-qty-div .sl-quantity{
+  	outline: 0;
+  	border-radius: 3px;
+  	width: 35px;
+  	height: 25px;
+  	margin: 0;
+  	padding: 0;
+  	color: #6a6d70;
+  	font-weight: bold;
+  	font-size: 14px;
+  	text-align: center;
+  	border: 1px solid #ccc;
+  	border-bottom: none;
+  	border-right: none;
+  	box-shadow: none;
+	-webkit-appearance: none;
+}
+#sl-edit-modal .sl-qty-div span{
+	display: inline;
+  	margin-right: 10px;
+  	font-size: 12px;
+  	color: #a8a8a8;
+  	font-family: arial;
+}
+
+/*Print CSS*/
+@media print {
+	.sl-list-layer{font-family:arial;}
+	.sl-item{page-break-inside: avoid;}
+	.sl-list-layer{border:none !important;}
+	.sl-item{border-left: 1px solid #ccc; border-right:1px solid #ccc;}
+	
+}
+
+/*iPad 3 & 4 Landscape*/ 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+	.sl-item .sl-title.sl-two-line{
+		max-height: 31px;
+	}
+}
+
+/*iPad Landscape - Common*/ 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.sl-item .sl-title.sl-two-line{
+		max-height: 32px;/* 29px; */
+	}
+	.sl-noscroll{overflow:hidden !important;}
+	.sl-absolute{position: absolute !important;}
+	#sl-edit-modal{position:absolute;top:2%;}
+}
+/* PORTRAIT TABLET */
+@media (max-width: 979px) {
+
+	html.sl-body-overflow, body.sl-body-overflow{height:100%;overflow:hidden;}
+
+	/* html.sl-noscroll, body.sl-noscroll{overflow:hidden !important;position:relative !important;height:100% !important;} */
+	/* body.sl-no-body-scroll{position: fixed;left: 0px;top: 0px;} */
+	.sl-noscroll{overflow:hidden !important;}
+	.sl-absolute{position: absolute !important;}
+	.sl-item .sl-title.sl-two-line{
+		max-height: 32px;
+	}
+	#sl-edit-modal{position:absolute;top:5%;margin-left:-200px;}
+	.sl-more-options .sl-print{
+		display: none;
+	}
+}
+
+/* LANDSCAPE LARGER MOBILE */
+@media (max-width: 767px) {
+	body .sl-hidden{display: none !important;}
+	#shopping-list-widget.sl-fullscreen #sl-container{
+		width: 100%;
+		position: absolute;
+	}
+	#sl-container{
+		width: 90%;
+		height: 400px;
+		position: fixed;
+	}
+	
+	.sl-fav-div{
+		padding: 45px;
+	}
+	.sl-modal.large {left: 5%;margin: 0;}
+	.sl-header-text{font-size: 18px;}
+
+	#sl-favorite-modal{ 
+    	width: 96%;
+  		margin: 0;
+  		left: 2%;
+  		top: 2%;
+	}
+	.sl-item .sl-title.sl-two-line{
+		max-height: 32px; /* 31px; */
+	}
+	
+	.sl-item .sl-note{min-width: 180px;}
+	
+	/* .sl-item .sl-note.sl-fade-line:before{
+		bottom: 4px;
+	} */
+	
+	.sl-android-4-1 .sl-item .sl-title.sl-two-line{
+  		overflow-x: auto;
+		overflow-y: hidden;
+		max-height: 35px;
+		line-height: 17px;
+	}
+	.sl-android-4-1 .sl-item .sl-title:before{
+		background-position: -3px -169px;
+	}
+	.sl-android-4-1 .sl-completed-list .sl-item .sl-title.sl-two-line:before{
+		background-position: -3px -191px;
+	}
+	.sl-android-4-1 .sl-item .sl-note{
+		max-height: 17px;
+		overflow-x: auto;
+		overflow-y: hidden;
+		/*line-height: 14px;*/
+	}
+	.sl-android-4-1 .sl-item .sl-note.sl-fade-line:before{
+		bottom: -2px;
+		height: 25px;
+		background: -webkit-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		/* background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		background-image: -ms-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		background-image: -o-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+		background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+		background-repeat: repeat;
+	}
+
+	#sl-favorite-modal .sl-item .sl-icon{
+		margin: 5px 6px;
+	}
+
+	.sl-android-4-1 #sl-favorite-modal .sl-item .sl-title{
+		line-height: 17px;
+	}
+	.sl-android-4-1 #sl-favorite-modal .sl-item .sl-title.sl-two-line{
+		max-height: 35px;
+		line-height: 17px;
+	}
+
+	.sl-android-4-1 #sl-favorite-modal .sl-existing-fav .sl-item .sl-title:before{
+		background-position: -3px -191px;
+	}
+
+	#sl-edit-modal{position:absolute;top:2%;}
+}
+
+/* LANDSCAPE SMALL PHONES AND DOWN */
+@media (max-width: 480px) {
+	
+	.sl-modal.open .sl-modal-dialog{position:absolute;top:2%;left:2%;width:96%;}
+	.sl-modal.small,.sl-modal.medium {left: 5%;margin: 0;}
+    .sl-modal-content {padding: 12px;}
+    .sl-modal-footer {padding-top: 12px;}
+    .sl-modal-dialog, #sl-edit-modal{
+    	width: 95%;
+  		margin: 0;
+  		left: 9px;
+    }
+
+	.sl-mobile{
+		display: block;
+	}
+	.sl-desktop{
+		display: none;
+	}
+	#sl-favorite-modal .sl-modal-footer .sl-add-list, #sl-favorite-modal .sl-modal-footer .sl-remove-fav{
+  		width: 50%;
+  		margin-right: 15px;
+	}
+	#sl-favorite-modal .sl-modal-footer .sl-remove-fav{
+		width: 60%;
+	}
+	#sl-favorite-modal .sl-left-btn{
+		margin-left: 15px;
+		width: 35%;
+		text-align: center;
+	}
+	#sl-favorite-modal .sl-left-btn.sl-done{
+	  	width: 25%;
+	}
+	#sl-email-modal{position:absolute;}
+}
+
+/*iPhone 5/5s/5c or less - PORTRAIT*/
+@media (max-width: 360px) {
+
+	#sl-email-modal .sl-modal-body {
+		padding: 25px 18px 5px;
+	}
+	#sl-edit-modal .sl-actions{width: 50%;}
+}
+
+/*iPhone 4s less - PORTRAIT*/
+@media (max-width: 350px) {
+
+}
+
+/*very very small screens - PORTRAIT*/
+@media (max-width: 319px) {
+	.sl-item .sl-note{min-width: 0px;}
+}
+
+/* 3x Large screen, retina, stuff to override above media query */
+
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	#sl-add-form button.sl-disable, #sl-add-fav-form button.sl-disable {
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 9px -66px;
+  		background-size: 33px auto;
+	}
+	#sl-add-form button, #sl-add-fav-form button {
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 8px -29px;
+		background-size: 33px auto;
+	}
+	#sl-favorite-modal .sl-active-holder .sl-item.sl-active .sl-icon{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 2px -33px;
+  		background-size: 32px auto;
+	}
+	.sl-close{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 14px -141px;
+  		background-size: 35px auto;
+	}
+	.sl-more:before{
+		width: 27px;
+		top: 22px;
+		right: 16px;
+  		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -2px -255px;
+  		background-size: 31px auto;
+	}
+	.sl-completed-list .sl-checkbox, .sl-item .sl-c1.sl-active .sl-checkbox{
+	  	background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -5px -113px;
+  		background-size: 32px auto;
+	}
+	.sl-more-options .sl-view-fav:before{
+		height: 15px;
+  		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -8px -391px;
+  		background-size: 34px auto;
+	}
+	.sl-more-options .sl-share-email:before{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -10px -430px;
+  		background-size: 34px auto;
+	}
+	.sl-more-options .sl-clear-list:before{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -9px -467px;
+  		background-size: 34px auto;
+	}
+	.sl-more-options .sl-view-fav:before{
+		height: 15px;
+  		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat -9px -421px;
+ 		background-size: 35px auto;
+	}
+	#sl-favorite-modal .sl-active-holder .sl-item .sl-icon{
+	  	background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 1px 3px;
+  		background-size: 32px auto;
+	}
+	#sl-favorite-modal .sl-fav-edit .sl-item .sl-icon{
+	  	background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 2px -319px;
+  		background-size: 32px auto;
+	}
+	#sl-favorite-modal .sl-fav-edit .sl-item.sl-active .sl-icon{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 2px -284px;
+  		background-size: 32px auto;
+	}
+	.sl-actions .sl-delete-icon{
+		background: url('../img/shopping-list-sprites-3x.png?v=1.0') no-repeat 1px -181px;
+  		background-size: 32px auto;
+	}
+}*/
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max-moz-device-pixel-ratio: 2) { 
+
+	#sl-add-form button.sl-disable, #sl-add-fav-form button.sl-disable {
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 10px -66px;
+  		background-size: 32px auto;
+	}
+	#sl-add-form button, #sl-add-fav-form button {
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 10px -28px;
+		background-size: 32px auto;
+	}
+	#sl-favorite-modal .sl-active-holder .sl-item.sl-active .sl-icon{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -34px;
+  		background-size: 32px auto;
+	}
+	.sl-close{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 14px -139px;
+  		background-size: 33px auto;
+	}
+	.sl-more:before{
+		width: 27px;
+		top: 22px;
+		right: 16px;
+  		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -2px -275px;
+  		background-size: 32px auto;
+	}
+	.sl-completed-list .sl-checkbox, .sl-item .sl-c1.sl-active .sl-checkbox{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -6px -118px;
+  		background-size: 32px auto;
+	}
+	.sl-more-options .sl-view-fav:before{
+		height: 15px;
+  		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -9px -421px;
+ 		background-size: 35px auto;
+	}
+	.sl-more-options .sl-share-email:before{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -9px -462px;
+  		background-size: 35px auto;
+	}
+	.sl-more-options .sl-clear-list:before{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -10px -503px;
+  		background-size: 35px auto;
+	}
+	.sl-more-options .sl-view-fav:before{
+		height: 15px;
+  		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -9px -421px;
+ 		background-size: 35px auto;
+	}
+	#sl-favorite-modal .sl-active-holder .sl-item .sl-icon{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 1px 3px;
+  		background-size: 32px auto;
+	}
+	#sl-favorite-modal .sl-fav-edit .sl-item .sl-icon{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -335px;
+  		background-size: 32px auto;
+	}
+	#sl-favorite-modal .sl-fav-edit .sl-item.sl-active .sl-icon{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -298px;
+  		background-size: 32px auto;
+	}
+	.sl-actions .sl-delete-icon{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 1px -189px;
+  		background-size: 32px auto;
+	}
+	.sl-fav-focus .sl-icon{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat -1px -489px #f2f2f2;
+  		background-size: 32px auto;
+	}
+	.sl-actions .sl-fav-icon.sl-active{
+		background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -490px;
+  		background-size: 32px auto;
+	}
+	.sl-modal-close{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -526px;
+  		background-size: 32px auto;
+	}
+	.sl-actions .sl-fav-icon{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 2px -565px;
+  		background-size: 32px auto;
+	}
+	.sl-weekly-ads{
+	  	background: url('https://static.meijer.com/mPerks/images/shoppinglist/v1/img/shopping-list-sprites-2x.png?v=1.1') no-repeat 8px -591px;
+  		background-size: 32px auto;
+	}
+}

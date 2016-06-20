@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Meat Mart</title>
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACwElEQVR42qWTWUhUcRTGv//dRmdpHPcxDXFFTCYji3QwInLLxIKEIHuwB6koKUMNEnowomw1tAWiIhSTFJJoM8Olhwi0cSnKNTWX1HEb70yz3LldhcIIs+i8Hs7vfOc75xD8Z5A/JQtcZFvDgrV3IYKzWCzVNpsj/9iwkV8RcJymVZ5qxYPU7AS9Z3L6uN3Mm/mhQd9PlY/lg10jSTlDE6+XBUjFHsFK6m3c9rVB3vv3iR4f68wQRYXIcrCE6ycNVc/V7a86kiVI/W8AqdglUE4ZdkS4h7tm7gYDM5TDPXBM8BAcAjitGvbYpLnm0hqmp3PATxpn9hfAKY4uOZwedkRBCKwZe8F+7QZa2uES6AEHkYFv7Ycywhem9dtMj/JLDdk9o/FkSfc1u4Lk3bE1hZz1aiXmNurBMQKc9U0ATUGWewbW1no4n9aBjdM5eke+kS/99is/AXksfS4nJybPi9Bw9hoxGhAAdXIKrDdugXZhQCUmgouOx3RBLhT+bjDH6/mXJXX3yE0dTbLbBPG8gv2QGqaO0HqrwDAURqYs8LpcDLH8OsQ5HvywCXSgL5yjRtAsDTZzp+lh3p0XpKEobbNttvvCwP3Pm6LdZbSPRg5Wkmyct0KTHgtX3TrMlVVgVYA7WIVsUe1o+wg0J7Pmqw9dM5Dmi3vE2IQYlKUUIYQVoJVzULmycIrAOG9D2OksUDMzMJY3gpKUCQ4Rqkg/OPW6ydrCqmek9mjUmEzl4TP/ro+faZmQa11BaIoCs+COtA2WYxByIgOcUgn7GwNYHw3omCi8v/3E1tLYt2HRxOp0nwbT4OSB9jYwGo5UhKrp1QqOclsw/8exeEf6w00fCkrGCcONXdaOzqn6g71jacudso4iyPKWUVukaTzlNKEk5Q7eLpJpm9PgoJjisxZr04rPtAS4oIS6JAiWf/rGv4nvrmgICZULEkoAAAAASUVORK5CYII=" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/BootStrap/js/bootstrap.min.js"></script>
+    <link href="/BootStrap/css/bootstrap.min.css" rel="stylesheet" />
+      <style type="text/css">
+        *
+        {
+            border-radius: 0 !important;
+        }
+
+        .gray, .gray a
+        {
+            color: #CACACA;
+        }
+
+        .red, .red a
+        {
+            color: red;
+        }
+
+        .font-bold
+        {
+            font-weight: bold;
+        }
+
+        .align-right
+        {
+            text-align: right;
+        }
+
+        #nav_wrapper
+        {
+            width: 100%;
+            height: 44px;
+            padding: 5px;
+            background: #0A4D8C;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .itemdiv
+        {
+            border: 1px solid #e5e5e5;
+            height: 400px;
+        }
+
+            .itemdiv table
+            {
+                width: 100%;
+                text-align: center;
+                height: 95%;
+            }
+
+        .footer
+        {
+            background: #104f88;
+            margin: 0;
+            border-radius: 0;
+            color: white;
+            border: 0;
+            min-height: 0;
+            clear: both;
+        }
+
+            .footer ul
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+
+            .footer li
+            {
+                display: inline;
+                float: left;
+                width: 20%;
+                text-align: center;
+                padding: 10px;
+            }
+
+                .footer li a
+                {
+                    color: white;
+                    display: block;
+                }
+
+        .item-name
+        {
+            font-size: 18px;
+            text-decoration: none;
+            color: #333333;
+        }
+
+        .item-selected
+        {
+            background-color: #FBF2E1;
+        }
+
+        .header
+        {
+            background-color: #00acbd;
+            background-image: linear-gradient(10deg, #1cbbb4 0%, #0072bc 100%);
+            color: white;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="header">
+                <div class="container">
+                    <table style="width: 100%">
+                        <tr>
+                            <td>
+                                <h1><a href='/' style="text-decoration: none; color: white;">MeatMart </a>
+                                </h1>
+                            </td>
+                            <td class="pull-right">
+                                <br />
+                                Pure Protien<br />
+                                <a href="/login.aspx" style="color: white">Login</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="top-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#" onclick="ShowTopData('divCategoryList')"><span class="glyphicon glyphicon-th"></span>&nbsp;Category</a></li>
+                            <li><a href="#" onclick="ShowTopData('divBrandList')"><span class="glyphicon glyphicon-th-large"></span>&nbsp;Brands</a></li>
+                            <li><a href="#" onclick="ShowTopData('divCartList')"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Cart <span id="spanCartDetail" class="badge"></span></a></li>
+                            <li><a href="#" onclick="ShowOrderStatus()"><span class="glyphicon glyphicon-dashboard"></span>&nbsp;Current Order</a></li>
+                            <li><a href="#" onclick="ShowFavorite()"><span class="glyphicon glyphicon-heart"></span>&nbsp;Favourite</a></li>
+                        </ul>
+                        <div class="navbar-form pull-right">
+                            <div class="input-group">
+                                <input id="nav_search" class="form-control" name="keyword" type="search" maxlength="35" placeholder="Search" autocomplete="off" role="textbox" runat="server" style="height: 100%;" />
+                                <span class="input-group-btn">
+                                    <a id="linkSearch" class="btn btn-default" runat="server" onclick="return SerachItem();"><i class='glyphicon glyphicon-search'></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+                <div class="container">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="/Contact.aspx">Contact Us</a></li>
+                        <li><a href="#">Customer Care</a></li>
+                        <li><a href="#">Privacy &amp; Security</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/**
+ * PgwModal - Version 2.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+body.pgwModalOpen{overflow:hidden}#pgwModalBackdrop{width:100%;height:100%;position:fixed;top:0;left:0;z-index:9000}#pgwModal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:9010;overflow-x:auto;overflow-y:scroll;text-align:center}#pgwModal .pm-container{margin:10px}#pgwModal .pm-body{display:inline-block;max-width:800px;min-width:300px;position:relative;width:100%;z-index:9020;margin-top:10px}.pgwModalBackdrop{background:#ccc;opacity:.6;filter:alpha(opacity=60)}.pgwModal .pm-body{background-color:#fff;border-radius:0;-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);}.pgwModal .pm-title{padding:5px 0 6px;;border-radius:0;font-size:1rem;min-height:25px}.pgwModal .pm-content{background:#fff;padding-bottom:25px;border-radius:0;text-align:left}.pgwModal .pm-close{cursor: pointer; position: absolute;top: 10px;right: 10px;background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2030%2030%22%20enable-background%3D%22new%200%200%2030%2030%22%20width%3D%2230%22%20height%3D%2230%22%3E%3Cpath%20fill%3D%22%235A5A53%22%20d%3D%22M17.3%2015.5l12.2-10.9c.6-.6.7-1.5.1-2.1s-1.5-.7-2.1-.1l-12.5%2011.1-12.5-11.1c-.6-.6-1.6-.5-2.1.1-.6.6-.5%201.6.1%202.1l12.2%2010.9-12.2%2010.9c-.6.5-.7%201.5-.1%202.1.3.3.7.5%201.1.5.4%200%20.7-.1%201-.4l12.5-11.1%2012.5%2011.1c.3.3.6.4%201%20.4s.8-.2%201.1-.5c.6-.6.5-1.6-.1-2.1l-12.2-10.9z%22%2F%3E%3C%2Fsvg%3E%0A");width: 25px;height: 25px;display: block;opacity: .6;background-repeat: no-repeat;background-size: 25px 25px;}.pgwModal .pm-close:hover{opacity: 1;}
+
+@media (max-width: 380px) {
+    .pgwModal .pm-title {
+        min-height: 40px;
+    }
+}

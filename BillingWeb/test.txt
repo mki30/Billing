@@ -1,0 +1,644 @@
+1^Amba G Residency^Amba G Residency,Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201014
+2^Amrapali Royal^Amrapali Royal,Indrapuram Gaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+3^Amrapali Village^Amrapali Village,Indrapuram Gaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+4^Antriksh Greens^Antriksh Greens,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+5^Arihat Paradise^Arihat Paradise,Indrapuram Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+6^Bharat Residency^Bharat Residency,Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+7^Ashiana Upvan^Ashiana Upvan,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+8^Eastern Heights^Eastern Heights,Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+9^Exotica East Square^Exotica East Square Ahinsa Khand , Mall Rd.,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+10^Gaur Green Avenue^Gaur Green Avenue,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+11^Gaur Green Vista^Gaur Green Vista,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+12^GC Centrum^GC Centrum,Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+13^Himalaya Legend^Himalaya Legend,Indrapuram,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+14^Himalaya Tower^Himalaya Tower,Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+15^HRC Professional^HRC Professional,Indrapuram,Gahziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+16^Orange County^Orange County,Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+17^Armor Homes^Armor Homes,Indrapuram ,Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+18^Arihant Harmony^Arihant Harmony,Indrapuram,Gaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201010
+19^Aditya Mega City^Aditya Mega City Indrapuram^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201014
+21^A R Reflections^^Vaibhav Khand^Ghaziabad^^
+22^Ansals Aavantika^^Vaibhav Khand^Ghaziabad^^
+24^Acacia Valley^^Vaibhav Khand^Ghaziabad^^
+25^Aditya Gold Crest^Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+28^Aditya Garden City^^Vaibhav Khand^Ghaziabad^^
+29^Aditya Suntech City^^Vaibhav Khand^Ghaziabad^^
+31^ATS Advantage^Ats Advantage Indrapuram Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201014
+32^Aditya East Park Apartment^^Vaibhav Khand^Ghaziabad^^
+33^AJS Height^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+34^AJS Media Majestic Tower^^Vaibhav Khand^Ghaziabad^New Delhi^
+35^Ajnara Enclave^^Vaibhav Khand^Ghaziabad^^
+36^Ajnara Pride^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+37^Ajnara Grace^^Vaibhav Khand^Ghaziabad^^
+39^Ajnara Landmark^^Vaibhav Khand^Ghaziabad^^
+41^Ajnara Integrity^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+42^Akanksha Enclave^^Vaibhav Khand^Ghaziabad^^
+44^Alaknanda Apartment^^Vaibhav Khand^Ghaziabad^^
+45^Arihant Altura^Indirapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+46^The Alien Court^^Vaibhav Khand^Ghaziabad^^
+48^Amrapali Greens^Amrapali Green Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+50^Amrapali Village^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+51^Amrapali Vaishali^^Vaibhav Khand^Ghaziabad^^
+52^Amrapali Empire^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+53^Skytech Amrapali^^Vaibhav Khand^Ghaziabad^^
+55^Anukampa Apartments^Indrapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+56^Angel Jupiter^Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+57^Angel Mercury^Indrapuram Ghaziabad^^Ghaziabad^Uttar Pradesh^
+58^Ankur Vihar^^Vaibhav Khand^Ghaziabad^^
+60^Ansal Aquapolis^^Vaibhav Khand^Ghaziabad^^
+62^Ansals Tanushree^^Vaibhav Khand^Ghaziabad^^
+64^Ansal Neelpadm Kunj^^Vaibhav Khand^Ghaziabad^^
+65^Ansals Chiranjiv Vihar^^Vaibhav Khand^Ghaziabad^^
+66^Ansal Neel Padam I^^Vaibhav Khand^Ghaziabad^^
+67^Windsor and Nova^^^Ghaziabad^Uttar Pradesh^
+68^Ansal Green Glades I II^^Vaibhav Khand^Ghaziabad^^
+69^Apex Green^^Vaibhav Khand^Ghaziabad^^
+70^Apex Green Valley^^Vaibhav Khand^Ghaziabad^^
+71^Apex Royal Castle^^^Ghaziabad^Uttar Pradesh^
+72^Aprameya Residency^^Vaibhav Khand^Ghaziabad^^
+73^Sai Apartment^^Vaibhav Khand^Ghaziabad^^
+74^Eldeco Apartments^^Vaibhav Khand^Ghaziabad^^
+75^Binsar Apartment^^Vaibhav Khand^Ghaziabad^^
+76^Eastend Appartments^Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+77^Mangalam Apartment^^Vaibhav Khand^Ghaziabad^^
+78^Vardan Apartment^Indirapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+79^Regal Apartment^^Vaibhav Khand^Ghaziabad^^
+80^Sophia Appartments^Indirapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+81^Suraksha Apartments^^Vaibhav Khand^Ghaziabad^^
+82^Takshshila Apartments^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+84^Vijaya Apartments^Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+85^Balaji Apartment^^Vaibhav Khand^Ghaziabad^^
+86^Lumbini Apartment^^Vaibhav Khand^Ghaziabad^^
+88^Dheeraj Appratments^^Vaibhav Khand^Ghaziabad^^
+89^Rajnigandha Apartment^^Vaibhav Khand^Ghaziabad^^
+90^Tushar Apartment^^Vaibhav Khand^Ghaziabad^^
+91^Premanjali Apartment^^Vaibhav Khand^Ghaziabad^^
+92^Devika Apartments^^Vaibhav Khand^Ghaziabad^^
+93^Elite Apartment^^Vaibhav Khand^Ghaziabad^^
+94^Lajpat Apartment^^Vaibhav Khand^Ghaziabad^^
+95^Krishna Apartment^^Vaibhav Khand^Ghaziabad^^
+97^Sunrise Apartment^^Vaibhav Khand^Ghaziabad^^
+98^Landcraft Apartment^^Vaibhav Khand^Ghaziabad^^
+99^Gangotri Apartment^^Vaibhav Khand^Ghaziabad^^
+101^Surya Apartment^^Vaibhav Khand^Ghaziabad^^
+102^Shipra Apartment^^Vaibhav Khand^Ghaziabad^^
+103^Laboni Apartments^^Vaibhav Khand^Ghaziabad^^
+104^Shreeji Apartment^^Vaibhav Khand^Ghaziabad^^
+105^Dwarika Apartments^^Vaibhav Khand^Ghaziabad^^
+107^Doodeshwar Apartments^^Vaibhav Khand^Ghaziabad^^
+108^Krishna Apra Sapphire^Krishna Apra Sapphire, Indirapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+109^Pratibha Apartment L^^Vaibhav Khand^Ghaziabad^^
+110^GE Centrium Apartment^^Vaibhav Khand^Ghaziabad^^
+111^Park View Apartment^^Vaibhav Khand^Ghaziabad^^
+112^Krishna Apra Gardens^Krishna Apra Gardens Vaibhav Khand Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+113^Rattan Jyoti Apartments^^Vaibhav Khand^Ghaziabad^^
+114^Media Times Appartments^^Vaibhav Khand^Ghaziabad^^
+115^SPS Apartment Phase I^^Vaibhav Khand^Ghaziabad^^
+116^Panchsheel Euro Apartments^^Vaibhav Khand^Ghaziabad^^
+117^SPS Apartment Phase II^^Vaibhav Khand^Ghaziabad^^
+118^Ashiana Greens Apartment^Ashiana Greens , Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+119^Rajhans Premier^Rajhans Premier Apartment,Indrapuram, Ghaziabad.^^Ghaziabad^Uttar Pradesh^
+120^Rajhans Pariwar Apartment^^Vaibhav Khand^Ghaziabad^^
+121^Jaipuria Sunrise Greens^ipuria Sunrise Greens Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+122^Lakshya Aquapolis^^Vaibhav Khand^Ghaziabad^^
+123^Arihant Residency^^Vaibhav Khand^Ghaziabad^^
+125^Raison Armor Homes^^^Ghaziabad^Uttar Pradesh^
+126^Aspen Gardens^^Vaibhav Khand^Ghaziabad^^
+127^Ashiana Heritage^^Vaibhav Khand^Ghaziabad^^
+128^Assotech Windsor^^Vaibhav Khand^Ghaziabad^^
+129^Assotech Cabana^^Vaibhav Khand^Ghaziabad^^
+131^Ashiana Le Residency^NH-24,Indrapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+132^Ashiana Palm Court^^Vaibhav Khand^Ghaziabad^^
+133^Assotech Realty Elegante^^Vaibhav Khand^Ghaziabad^^
+134^Panchsheel Ashok Vatika^^Vaibhav Khand^Ghaziabad^^
+135^ATS Haciendas^^Vaibhav Khand^Ghaziabad^^
+138^Bellevue Avenue^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+141^Balaji Green Glades^^Vaibhav Khand^Ghaziabad^^
+143^Shri Balaji Residency^Indirapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+144^Rudra Sera Bella^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+145^Bemisal C 3  84 Janakpuri^^Vaibhav Khand^Ghaziabad^^
+146^Bharat Heights^Bharat Heights Indrapuram GHaziabad.^^Ghaziabad^Uttar Pradesh^
+148^Bharat Green Home^^Vaibhav Khand^Ghaziabad^^
+149^Hi Bird Scottish Garden^^Vaibhav Khand^Ghaziabad^^
+151^Bulland Heights^^Vaibhav Khand^Ghaziabad^^
+152^Makkar Builders^^Vaibhav Khand^Ghaziabad^^
+153^Oyster C Pearl^^Vaibhav Khand^Ghaziabad^^
+156^Gaur Cascades^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+157^Crossings Castle^^Vaibhav Khand^Ghaziabad^^
+159^Celestial Comfort^^Vaibhav Khand^Ghaziabad^^
+160^Charms Solitaire^Indirapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+161^Vishal Pantnagar Chs Ltd^^Vaibhav Khand^Ghaziabad^^
+162^Civitech Florencia^^Vaibhav Khand^Ghaziabad^^
+167^Golf View City^^Vaibhav Khand^Ghaziabad^^
+168^India Moon City^^Vaibhav Khand^Ghaziabad^^
+169^Gaur Green City^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+171^Wave City Prime Floors^^Vaibhav Khand^Ghaziabad^^
+172^Shipra Suncity^Indirapuram ,Ghaziabad^^Ghaziabad^Uttar Pradesh^
+174^Classic Residency^^Vaibhav Khand^Ghaziabad^^
+179^Coperland Residency^^Vaibhav Khand^Ghaziabad^^
+183^Platinum Condos^^Vaibhav Khand^Ghaziabad^^
+185^Panchsheel Park Colony^^Vaibhav Khand^Ghaziabad^^
+187^Crossing Republik^^Vaibhav Khand^Ghaziabad^^
+188^Crescent Parc Ebony Greens^^Vaibhav Khand^Ghaziabad^^
+189^Saamag Crescent Parkc Ebony Heights^^Vaibhav Khand^Ghaziabad^^
+192^Desire Residency^Indirapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+193^Devika Living Legends^^Vaibhav Khand^Ghaziabad^^
+194^Designarch Gardenia e Homes^^Vaibhav Khand^Ghaziabad^^
+196^Divyansh Pratham^ Divyansh Pratham Indirapuram; Aditya White Cottage New NH 24 Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^201014
+197^Heritage Divine^^Vaibhav Khand^Ghaziabad^^
+199^Eastern Gates^^Vaibhav Khand^Ghaziabad^^
+200^Eastern Green^^Vaibhav Khand^Ghaziabad^^
+202^Ebony Heights^^Vaibhav Khand^Ghaziabad^^
+204^Niralas Eden Park^GH-5, Ahinsa Khand-2, Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+205^Niralas Eden Park II^^Vaibhav Khand^Ghaziabad^^
+206^Eleven Parkview^^Vaibhav Khand^Ghaziabad^^
+208^GC Emerald Heights^^Vaibhav Khand^Ghaziabad^^
+211^Supertech Enclave^^Vaibhav Khand^Ghaziabad^^
+212^Jaipuria Enclave^^Vaibhav Khand^Ghaziabad^^
+213^Sheetal Enclave^^Vaibhav Khand^Ghaziabad^^
+214^Gulmohur Enclave^^^Ghaziabad^Uttar Pradesh^
+216^Eros Market Place^^Vaibhav Khand^Ghaziabad^^
+217^Era Gardenia Estate^^Vaibhav Khand^Ghaziabad^^
+219^Hansmukhi Garden Estate^^Vaibhav Khand^Ghaziabad^^
+220^Sweet Homes Real Estate^^Vaibhav Khand^Ghaziabad^^
+222^Express Mall^^Vaibhav Khand^Ghaziabad^^
+223^Express Garden^Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+225^Parsvnath Exotica^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+226^GDA Housing Flats^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+227^Nest Flexi Homes^^Vaibhav Khand^Ghaziabad^^
+228^Omaxe Habitat Floors^^Vaibhav Khand^Ghaziabad^^
+230^Parsvnath Majestic^Indirapuram,Ghaziabad^^Ghaziabad^Uttar Pradesh^
+232^Fortune Residency^^Vaibhav Khand^Ghaziabad^^
+233^Gaur Ganga^^Vaibhav Khand^Ghaziabad^^
+234^Gaur Galaxy^^Vaibhav Khand^Ghaziabad^^
+236^Gaur Residency^^Vaibhav Khand^Ghaziabad^^
+237^Gaur Valerio^Indirapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+238^Gaur Heights^^Vaibhav Khand^Ghaziabad^^
+239^Gaur Square^^Vaibhav Khand^Ghaziabad^^
+240^Gaur Ganga 2^^Vaibhav Khand^Ghaziabad^^
+241^Gardenia Greens^^Vaibhav Khand^Ghaziabad^^
+242^Gaur Greenvista^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+243^Gaur Homeselegante^^Vaibhav Khand^Ghaziabad^^
+245^Gardenia Glamour^^Vaibhav Khand^Ghaziabad^^
+246^Gardenia Square^Crossing republic,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+248^Swarn Ganga^^Vaibhav Khand^Ghaziabad^^
+249^Gaur Global Village^Crossing Republic,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+252^Niho Scottish Garden^Niho Scottish Garden, Indrapuram Ghaziabad^^Ghaziabad^Uttar Pradesh^
+253^Saffron Scottish Garden^^Vaibhav Khand^Ghaziabad^^
+254^Jasmine Scottish Garden^^Vaibhav Khand^Ghaziabad^^
+256^GC Grand^GC Grand, Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+258^Golf Links^^Vaibhav Khand^Ghaziabad^^
+259^Golf Villas^^Vaibhav Khand^Ghaziabad^^
+262^Green View Heights^^Vaibhav Khand^Ghaziabad^^
+268^Palm Greens Society^^Vaibhav Khand^Ghaziabad^^
+269^Jaipurias Sunshine Greens^Jaipurias Sunshine Greens Indrapuram Ghaziabad.^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+272^Gyan Khand 3^^Vaibhav Khand^Ghaziabad^^
+273^Happy Homes^^Vaibhav Khand^Ghaziabad^^
+274^SPS Heights^indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+275^Hindon Heights^^Vaibhav Khand^Ghaziabad^^
+277^Libra Heights^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+278^Rama Heights^^Vaibhav Khand^Ghaziabad^^
+280^JKG Heights^^Vaibhav Khand^Ghaziabad^^
+281^Pearl Heights^^Vaibhav Khand^Ghaziabad^^
+284^Regalia Heights^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+285^Shri Ram Heights^^Vaibhav Khand^Ghaziabad^^
+286^River Heights Status^^Vaibhav Khand^Ghaziabad^^
+287^New Hights^^Vaibhav Khand^Ghaziabad^^
+290^Himalaya Residency^Himalaya Residency, Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+292^SG Homes^^Vaibhav Khand^Ghaziabad^^
+293^Leela Home^^Vaibhav Khand^Ghaziabad^^
+294^Quantum Homes^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+295^Supertech Homes^^Vaibhav Khand^Ghaziabad^^
+297^Park View - I^^Vaibhav Khand^Ghaziabad^^
+298^Supertech Icon^Indrapuaram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+299^Mahagunpuram II^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+301^SG Impression^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+306^V3S Indralok^^^Ghaziabad^Uttar Pradesh^
+307^Rail Vihar^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+308^IRS Society^^Vaibhav Khand^Ghaziabad^^
+311^Parsvnath Kaushambi Mall^^Vaibhav Khand^Ghaziabad^^
+313^Krishna Kunj^^Vaibhav Khand^Ghaziabad^^
+314^Krishna Villa^^Vaibhav Khand^Ghaziabad^^
+315^Sai Kripa^^Vaibhav Khand^Ghaziabad^^
+316^Srishti Shipra Krishna^^Vaibhav Khand^Ghaziabad^^
+317^Shipra Krishna Vista^Indirapuram,Ghaziabad^^Ghaziabad^Uttar Pradesh^
+318^Vrinda Kunj^^Vaibhav Khand^Ghaziabad^^
+319^KW Srishti^^Vaibhav Khand^Ghaziabad^^
+320^La Royale^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+322^Royal Legacy^^Vaibhav Khand^Ghaziabad^^
+324^Lohia Nagar^^Vaibhav Khand^Ghaziabad^^
+325^Lotus Pond^Lotus, The Lotus Pond, Vaibhav Khand Indrapuram,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+326^Mahagunpuram^^Vaibhav Khand^Ghaziabad^^
+327^Mahagun Villas^^Vaibhav Khand^Ghaziabad^^
+328^Manoj Vihar^^Vaibhav Khand^Ghaziabad^^
+330^Magic Villa^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+331^Maia Meridian^^Vaibhav Khand^Ghaziabad^^
+332^Mahagun Mansion^Indrapuram ,Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+334^Niho Marvel^Neho Marvel iNdrapuram^^Ghaziabad^Uttar Pradesh^
+335^Shipra Mall^^Vaibhav Khand^Ghaziabad^^
+337^Mahagun Sarovar Portico^^Vaibhav Khand^Ghaziabad^^
+338^Paramount Mapple^^Vaibhav Khand^Ghaziabad^^
+340^Meadows Vista^^Vaibhav Khand^Ghaziabad^^
+342^Milan Vihar^Indirapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+345^N R Residency^^Vaibhav Khand^Ghaziabad^^
+346^Neelkanth Residency^^Vaibhav Khand^Ghaziabad^^
+347^Shipra Suncity Neo^Shipra Suncity,Indirapuram,Ghaziabad^^Ghaziabad^Uttar Pradesh^
+348^Omaxe Park Plaza^^Vaibhav Khand^Ghaziabad^^
+349^Studio One^^Vaibhav Khand^Ghaziabad^^
+351^Patrakar Vihar^^Vaibhav Khand^Ghaziabad^^
+352^Paramount Pavalion^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+354^Royal Park^^Vaibhav Khand^Ghaziabad^^
+355^Parsvnath Sterling^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+356^Parsvnath Regalia^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+360^Windsor Park^Indrapuram Ghaziabad^^Ghaziabad^Uttar Pradesh^
+361^Princess Park^Princess Park, Indrapuram Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+364^Rishabh Paradise^Indirapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+366^Pinnacle Towers^Indrapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+367^Supertech Plaza^^Vaibhav Khand^Ghaziabad^^
+368^Rishabh Platinum^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+369^RMS Swarneem Plaza^^Vaibhav Khand^Ghaziabad^^
+370^Prakriti Residency^^Vaibhav Khand^Ghaziabad^^
+372^Rajhans Towers^^Vaibhav Khand^Ghaziabad^^
+375^Shri Ram Residency^Indrapuram, Ghaziabad^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+376^Regent^^Vaibhav Khand^Ghaziabad^^
+377^SPS Residency^SPS Residency,Vaibhav Khand, Indirapuram^^Ghaziabad^Uttar Pradesh^
+379^Signature Residency^^Vaibhav Khand^Ghaziabad^^
+381^Svaran Residency^^Vaibhav Khand^Ghaziabad^^
+382^Riviera Tower^^Vaibhav Khand^Ghaziabad^^
+383^Shipra Riviera^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+384^Royal Tower^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+385^Scottish Royale Villa^^Vaibhav Khand^Ghaziabad^^
+386^Sai Sadan^^Vaibhav Khand^Ghaziabad^^
+387^Samvad Vihar^^Vaibhav Khand^Ghaziabad^^
+390^Shanti Vihar^^Vaibhav Khand^Ghaziabad^^
+391^Shaurya Town^^Vaibhav Khand^Ghaziabad^^
+392^Shipra Srishti^Indirapuram, Ghaziabad^^Ghaziabad^Uttar Pradesh^
+393^Shipra Sun Tower^^Vaibhav Khand^Ghaziabad^Uttar Pradesh^
+394^Siddha Vinayak^^Vaibhav Khand^Ghaziabad^^
+395^Springview^^Vaibhav Khand^Ghaziabad^^
+396^Srijan Vihar^^Vaibhav Khand^Ghaziabad^^
+399^Vista Tower^^Vaibhav Khand^Ghaziabad^^
+401^Universum Valley^^Vaibhav Khand^Ghaziabad^^
+402^Saya Zenith^Indirapuram, Ghaziabad^^Ghaziabad^Uttar Pradesh^
+411^JaypeePavilionHeights^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+412^Supertech ORB^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+413^Hanging Garden^Sector-107 ,  Noida^^Noida^Uttar Pradesh^
+414^JaypeeGreensKristalCourt^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+415^Ecociti^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+416^JaypeeGreensKaylpsoCourt^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+417^Elite Homz^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+418^Cleo County^^^Noida^Uttar Pradesh^
+419^Capetown^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+420^Aditya Celebrity Homes^Sector-76 ,  Noida^^Noida^Uttar Pradesh^
+421^Iridia^Sector-86 ,  Noida^^Noida^Uttar Pradesh^
+422^WishTownKlassic^Sector-129 ,  Noida^^Noida^Uttar Pradesh^
+423^AmrapaliZodiac^Sector-120 ,  Noida^^Noida^Uttar Pradesh^
+424^Mahagun Verona^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+425^Kristal Court^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+426^JayPeeKasaBlanca^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+427^ParasTierea^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+428^LotusPanache^Sector-110 ,  Noida^^Noida^Uttar Pradesh^
+430^PrateekWisteria^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+433^ExoticaFresco^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+435^SikkaKaamnaGreens^Sector-143 ,  Noida^^Noida^Uttar Pradesh^
+437^Parx Laureate^Sector-108 ,  Noida^^Noida^Uttar Pradesh^
+438^Sunshine Helios^^^Noida^Uttar Pradesh^
+439^WaveTrucia^Sector-25A ,  Noida^^Noida^Uttar Pradesh^
+440^Panchsheel Greens2^Sector-16 ,  Noida^^Noida^Uttar Pradesh^
+441^MahagunModerne^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+442^SupertechCapeTown^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+443^SikkaKarmicGreens^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+445^Amrapali Heart Beat City^Sector-107 ,  Noida^^Noida^Uttar Pradesh^
+446^Logix Neo World^Sector-150 ,  Noida^^Noida^Uttar Pradesh^
+447^BlossomZest^Sector-143 ,  Noida^^Noida^Uttar Pradesh^
+448^TheLogixZest^Sector-143 ,  Noida^^Noida^Uttar Pradesh^
+449^Logix Blossom Zest^Sector-143 ,  Noida^^Noida^Uttar Pradesh^
+450^MadhubanEnclave^Sector-162 ,  Noida^^Noida^Uttar Pradesh^
+451^Amrapali Spring Meadows^Sector-16A ,  Noida^^Noida^Uttar Pradesh^
+452^LotusBoulevard^Sector-100 ,  Noida^^Noida^Uttar Pradesh^
+453^JM Orchid^Sector-76 ,  Noida^^Noida^Uttar Pradesh^
+454^Prateek Edifice^Sector-107 ,  Noida^^Noida^Uttar Pradesh^
+455^Jaypee Greens Aman^Sector-151 ,  Noida^^Noida^Uttar Pradesh^
+456^GoldenPalmVillage^Sector-22 ,  Noida^^Noida^Uttar Pradesh^
+457^Morpheus Violet^Sector-86 ,  Noida^^Noida^Uttar Pradesh^
+458^Jaypee Aman2^Sector-135 ,  Noida^^Noida^Uttar Pradesh^
+461^Cinnamon^Sector-12 ,  Noida^^Noida^Uttar Pradesh^
+462^Buddh Enclave^Sector-150 ,  Noida^^Noida^Uttar Pradesh^
+463^JaypeeKosmos^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+464^Maxblis Grand Welllington^^^Noida^Uttar Pradesh^
+466^JaypeeGreensKosmos^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+467^SupertechCapeTown^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+468^GulawaliEnclave^Sector-162 ,  Noida^^Noida^Uttar Pradesh^
+470^Antriksh Kanball^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+471^RidgeResidency^Sector-135 ,  Noida^^Noida^Uttar Pradesh^
+472^Ajnara^Sector-118 ,  Noida^^Noida^Uttar Pradesh^
+473^ATSNewProject^Sector-150 ,  Noida^^Noida^Uttar Pradesh^
+474^ShubhkamnaLords^Sector-79 ,  Noida^^Noida^Uttar Pradesh^
+475^PrateekWisteria^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+476^Vivante^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+477^JaypeeGreens^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+478^PrateekWisteria^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+479^Antriksh Golf View^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+480^3C Zing^Sector-168 ,  Noida^^Noida^Uttar Pradesh^
+482^Aranya^Sector-119 ,  Noida^^Noida^Uttar Pradesh^
+483^SupertechCapeTown^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+484^PrateekLaurel^Sector-120 ,  Noida^^Noida^Uttar Pradesh^
+485^TheAranya^Sector-119 ,  Noida^^Noida^Uttar Pradesh^
+486^HydePark^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+487^RGResidency^Sector-120 ,  Noida^^Noida^Uttar Pradesh^
+488^Skytech Matrott^Sector-76 ,  Noida^^Noida^Uttar Pradesh^
+489^TheArnanya^Sector-119 ,  Noida^^Noida^Uttar Pradesh^
+490^LotusPanache^Sector-100 ,  Noida^^Noida^Uttar Pradesh^
+492^ParamountFloraville^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+493^GardenIsles^Sector-133 ,  Noida^^Noida^Uttar Pradesh^
+494^TheAranya^Sector-119 ,  Noida^^Noida^Uttar Pradesh^
+496^Logix Blossom County^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+497^Grand Heritage^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+498^CivitechSampriti^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+501^LotusBoulevard^Sector-100 ,  Noida^^Noida^Uttar Pradesh^
+503^Aims Golf Avenue^Sector-75 ,  Noida^^Noida^Uttar Pradesh^
+504^Gardenia Gateway^Sector-75 ,  Noida^^Noida^Uttar Pradesh^
+509^PanschseelPratishtha^Sector-75 ,  Noida^^Noida^Uttar Pradesh^
+510^Panchsheel Pratishtha^Sector-75 ,  Noida^^Noida^Uttar Pradesh^
+512^SupertechEcociti^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+514^EldecoInspire^Sector-119 ,  Noida^^Noida^Uttar Pradesh^
+516^Antriksh Forest^Sector-77 ,  Noida^^Noida^Uttar Pradesh^
+518^LotusPanache^Sector-110 ,  Noida^^Noida^Uttar Pradesh^
+519^3C Boulevard^Sector-100 ,  Noida^^Noida^Uttar Pradesh^
+520^Helios^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+522^ParasTierea^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+524^Unitech Exquisite^Sector-117 ,  Noida^^Noida^Uttar Pradesh^
+525^JaypeeKrescentHomes^Sector-134 ,  Noida^^Noida^Uttar Pradesh^
+526^SupertechORB^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+527^UnitechExquisite^Sector-118 ,  Noida^^Noida^Uttar Pradesh^
+528^PrateekStylome^Sector-45 ,  Noida^^Noida^Uttar Pradesh^
+529^VivanteSelect^Sector-137 ,  Noida^^Noida^Uttar Pradesh^
+530^WaveMeghaCityCentre^Sector-32 ,  Noida^^Noida^Uttar Pradesh^
+531^WaveAmore^Sector-32 ,  Noida^^Noida^Uttar Pradesh^
+532^SupertechORB^Sector-74 ,  Noida^^Noida^Uttar Pradesh^
+533^IFI Green Avenue^Sector-44 ,  Noida^^Noida^Uttar Pradesh^
+535^ParxLaureate^Sector-108 ,  Noida^^Noida^Uttar Pradesh^
+537^OmaxTwinTower^Sector-50 ,  Noida^^Noida^Uttar Pradesh^
+538^JPGreensWishTown^Sector-128 ,  Noida^^Noida^Uttar Pradesh^
+540^PrateekEdifice^Sector-107 ,  Noida^^Noida^Uttar Pradesh^
+541^Lotus 300^Sector-107 ,  Noida^^Noida^Uttar Pradesh^
+542^Supertech^Sector-79 ,  Noida^^Noida^Uttar Pradesh^
+545^MahagunModerne^Sector-78 ,  Noida^^Noida^Uttar Pradesh^
+546^WaveCityCentre-Residential^Sector-32 ,  Noida^^Noida^Uttar Pradesh^
+547^The Residences^Sector 117, Noida^^Noida^Uttar Pradesh^
+548^Uni Homes 2^Sector-117, Noida^^Noida^Uttar Pradesh^
+549^Uni Homes 3^Sector 113, Noida^^Noida^Uttar Pradesh^
+550^Uniworld Gardens^Sector-117,Noida^^Noida^Uttar Pradesh^
+571^Sikka Kaamna Greens^sector-143B,Expressway,Noida^^Noida^Uttar Pradesh^
+575^NCR Olympia^^^Noida^Uttar Pradesh^
+578^Eldeco Inspire^Sector-119,Noida^^Noida^Uttar Pradesh^
+580^Victory Ace^Sector-143 Noida Expressway^^Noida^Uttar Pradesh^
+581^Mahagun Moderne^^^Noida^Uttar Pradesh^
+585^Lotus Panache^sector-110,Noida Expessway,Noia^^Noida^Uttar Pradesh^
+588^Amrapali Heart Beat City^Noida Expressway^^Noida^Uttar Pradesh^
+589^Shubhkamna Lords^sector-79,noida^^Noida^Uttar Pradesh^
+590^Jaypee Kasa Isles^Noida Expressway^^Noida^Uttar Pradesh^
+591^Lotus Boulevard^sector-100,noida- expressway,noida^^Noida^Uttar Pradesh^
+592^Nimbus Hyde Park^sector-50,noida^^Noida^Uttar Pradesh^
+593^Krescent Homes^Sector-129,Noida-Expressway,Noida^^Noida^Uttar Pradesh^
+595^Prateek Stylome^sector-45,noida^^Noida^Uttar Pradesh^
+597^Amrapali Princely Estate^Sector-76,Noida^^Noida^Uttar Pradesh^
+598^Lotus Panache Island^sector-110,noida expressway noida^^Noida^Uttar Pradesh^
+599^Shubhkamna Legend^sector-150,noida^^Noida^Uttar Pradesh^
+1852^ATS Pristine^^^Noida^Uttar Pradesh^
+602^Kosmos^Noia Expreesway^^Noida^Uttar Pradesh^
+603^Eco Village^^^Noida^Uttar Pradesh^
+604^Silicon City^sector-76,Noida^^Noida^Uttar Pradesh^
+605^Sikka Karnam Greens^sector-143B,expressway noida^^Noida^Uttar Pradesh^
+606^Klassic^Noida Expressway^^Noida^Uttar Pradesh^
+607^Kensington Park^Sector-133,Noida- Expressway,Noida^^Noida^Uttar Pradesh^
+608^Princely Estate^sector-76,noida^^Noida^Uttar Pradesh^
+611^Kensington Boulevard^Noida Expressway^^Noida^Uttar Pradesh^
+612^Unitech Unihomes 3^^^Noida^Uttar Pradesh^
+614^Gulshan Ikebana^^^Noida^Uttar Pradesh^
+616^Pavilion Heights 4^^^Noida^Uttar Pradesh^
+617^Pavillion Heights^sector-128,noida^^Noida^Uttar Pradesh^
+620^Sports Village^sector-78/79,noida^^Noida^Uttar Pradesh^
+621^Amrapali Hanging Gardens^^^Noida^Uttar Pradesh^
+622^Pan Oasis^sector-70,noida expressway^^Noida^Uttar Pradesh^
+623^The Kalypso Court^Sector-128,Expressway,Noida^^Noida^Uttar Pradesh^
+625^Eldeco Magnolia Park^^^Noida^Uttar Pradesh^
+626^Klassic (Duplex)^Sector-129,Noida Expressway,Noida^^Noida^Uttar Pradesh^
+627^The Pavilion Court^^^Noida^Uttar Pradesh^
+628^Jaypee Garden Isles^Noida Expressway^^Noida^Uttar Pradesh^
+629^Kensington Heights^Sector-133,Noida Expressway,Noida^^Noida^Uttar Pradesh^
+630^Shubhkamna Tech Homes^sector-137,noida^^Noida^Uttar Pradesh^
+631^Kosmos Heights^Sector -134,Expressway Noida.^^Noida^Uttar Pradesh^
+632^Lotus Zing^Sector-168,noida expressway^^Noida^Uttar Pradesh^
+633^Paramount Floraville^^^Noida^Uttar Pradesh^
+634^Lotus Boulevard Espacia^sector-100,noida expressway noida^^Noida^Uttar Pradesh^
+635^Golden Palm^^^Noida^Uttar Pradesh^
+636^Amrapali Zodiac^Sector-120,FNG Expressway,Noida^^Noida^Uttar Pradesh^
+637^The Imperial Court^Noida Expressway^^Noida^Uttar Pradesh^
+638^Wave City Centre^sector-34,noida^^Noida^Uttar Pradesh^
+639^Sunworld Arista^sector-168,Noida^^Noida^Uttar Pradesh^
+640^Bluestone^Yamuna Expressway^^Noida^Uttar Pradesh^
+641^Ceyane Tower^Noida Expressway^^Noida^Uttar Pradesh^
+642^Supertech Ecociti^sector-137,noida^^Noida^Uttar Pradesh^
+644^North Eye^sector-74,noida^^Noida^Uttar Pradesh^
+647^Supertech ORB Noida^sector-74,noida^^Noida^Uttar Pradesh^
+648^Supertech Supernova^sector-94,expressway, noida^^Noida^Uttar Pradesh^
+649^Supertech Renesa^sector-118,noida^^Noida^Uttar Pradesh^
+650^Meghdutam^sector-50,noida^^Noida^Uttar Pradesh^
+651^Ridge Residency^sector-135,noida^^Noida^Uttar Pradesh^
+652^Unitech Grande^Noida Expressway^^Noida^Uttar Pradesh^
+653^Grande Aqua Terra^Noida Expressway^^Noida^Uttar Pradesh^
+654^The Willows^sector-44, expressway noida^^Noida^Uttar Pradesh^
+655^Uni Homes^sector-117,noida^^Noida^Uttar Pradesh^
+656^Uniworld Gardens^Sector-117,Noida^^Noida^Uttar Pradesh^
+657^Unitech The Residences^sector-117,noida^^Noida^Uttar Pradesh^
+659^Unnati The Aranya^sector-119,noida^^Noida^Uttar Pradesh^
+1873^Windsor Court^^^Noida^Uttar Pradesh^
+660^Unitech New Project Noida^^^Noida^Uttar Pradesh^
+661^Lotus Peak^sector-100,noida expressway,noida^^Noida^Uttar Pradesh^
+662^Ajnara Daffodil^^^Noida^Uttar Pradesh^
+663^Amrapali Platinum^sector-119,noida^^Noida^Uttar Pradesh^
+666^Antriksh Golf City^^^Noida^Uttar Pradesh^
+667^Assotech Celeste Towers^^^Noida^Uttar Pradesh^
+668^Unitech New Launch Noida^^^Noida^Uttar Pradesh^
+675^Eldeco Olympia^Noida Expressway,noida^^Noida^Uttar Pradesh^
+676^34 PAVILION^^^Noida^Uttar Pradesh^
+677^Supertech New Project Noida^^^Noida^Uttar Pradesh^
+1874^Gaur Celestial^^^Ghaziabad^Uttar Pradesh^
+1875^Elites Arena^^^Noida^Uttar Pradesh^
+1876^Unnati Fortune World^^^Noida^Uttar Pradesh^
+678^Utopia Studio^Sector-93A Noida Expressway^^Noida^Uttar Pradesh^
+679^Gardenia Glory^Noida Expressway^^Noida^Uttar Pradesh^
+680^Supertech New Launch^^^Noida^Uttar Pradesh^
+681^Gardenia Golf City^^^Noida^Uttar Pradesh^
+683^Great Value Sharanam^^^Noida^Uttar Pradesh^
+684^Garden Court^^^Noida^Uttar Pradesh^
+685^The Kallisto Townhomes^^^Noida^Uttar Pradesh^
+686^Wish Town Plots^^^Noida^Uttar Pradesh^
+687^The Golden Gate^Noida Expressway^^Noida^Uttar Pradesh^
+688^JM Aroma^^^Noida^Uttar Pradesh^
+689^Blossom County^Noida Expressway^^Noida^Uttar Pradesh^
+690^Logix Neo World^Sector-150,noida^^Noida^Uttar Pradesh^
+692^Mahagun Mezzaria^sector-78,noida^^Noida^Uttar Pradesh^
+694^Twin Tower^sector-50,noida^^Noida^Uttar Pradesh^
+695^Omaxe Galaxy^^^Noida^Uttar Pradesh^
+696^Omaxe Grand Woods^^^Noida^Uttar Pradesh^
+699^Panchsheel Pratishtha^sector-75 ,noida^^Noida^Uttar Pradesh^
+700^Paras Tierea^sector-137,noida^^Noida^Uttar Pradesh^
+701^Prateek Laurel^^^Noida^Uttar Pradesh^
+702^Prateek Wisteria^sector-77,noida^^Noida^Uttar Pradesh^
+705^Shubhkamna Loginn Serviced Apartments^^^Noida^Uttar Pradesh^
+1880^Paras Seasons^^^Noida^Uttar Pradesh^
+706^Sikka Karmic Greens Aspire^sector-78,noida^^Noida^Uttar Pradesh^
+707^Sikka Karmic Greens^sector-78,Noida^^Noida^Uttar Pradesh^
+708^Sunworld  Vanalika^sector-178,Noida^^Noida^Uttar Pradesh^
+713^Sikka New Project^^^Noida^Uttar Pradesh^
+714^Sikka New Launch^^^Noida^Uttar Pradesh^
+761^ATS Advantage Phase 2^^^Ghaziabad^Uttar Pradesh^
+769^Shipra Sky City^^^Ghaziabad^Uttar Pradesh^
+772^Rudra Sera Bella^^^Ghaziabad^Uttar Pradesh^
+773^Shipra Srishti^^^Ghaziabad^Uttar Pradesh^
+1881^Civitech Stadia^^^Noida^Uttar Pradesh^
+1882^Civitech Sampriti^^^Noida^Uttar Pradesh^
+1885^Mahagun Mirabella^^^Noida^Uttar Pradesh^
+1886^Wave Irenia^^^Noida^Uttar Pradesh^
+1887^Maxblis Whitehouse^^^Noida^Uttar Pradesh^
+1888^Maxblis Whitehouse 2^^^Noida^Uttar Pradesh^
+1889^Purvanchal Royal Park^^^Noida^Uttar Pradesh^
+1627^Kasablanca Towers^Noida Expressway^^Noida^Uttar Pradesh^
+1628^Kristal Court^^^Noida^Uttar Pradesh^
+1629^Boomerang Residences^Noida Expressway^^Noida^Uttar Pradesh^
+1630^Kingswood Oriental^^^Gurgaon^Uttar Pradesh^
+1631^Kingswood Oriental^^^Noida^Uttar Pradesh^
+1632^Kingswood Oriental^^^Noida^Uttar Pradesh^
+1633^Kube^Noida Expressway^^Noida^Uttar Pradesh^
+1634^Kensington Boulevard^^^Noida^Uttar Pradesh^
+1635^Knight's Court^^^Noida^Uttar Pradesh^
+1636^Pebble Court^^^Noida^Uttar Pradesh^
+1637^The Orchards^Noida Expressway^^Noida^Uttar Pradesh^
+1638^Klassic Heights^^^Noida^Uttar Pradesh^
+1639^Kensington Park plot phase I^^^Noida^Uttar Pradesh^
+1640^Kensington Park plot phase II^^^Noida^Uttar Pradesh^
+1641^Aman^^^Noida^Uttar Pradesh^
+1642^Aman II^^^Noida^Uttar Pradesh^
+1643^Amrapali Titanium^^^Noida^Uttar Pradesh^
+1647^Amrapali Sapphire^^^Noida^Uttar Pradesh^
+1648^Amrapali Elden Park^^^Noida^Uttar Pradesh^
+1650^Amrapali Village II^^^Ghaziabad^Uttar Pradesh^
+1652^Supertech Cape Town^^^Noida^Uttar Pradesh^
+1653^Emerald Court ^^^Noida^Uttar Pradesh^
+1654^Apex Tower^^^Noida^Uttar Pradesh^
+1655^Ajnara Ambrosia^^^Noida^Uttar Pradesh^
+1657^Ajnara Grand Heritage^^^Noida^Uttar Pradesh^
+1664^Homes121^^^Noida^Uttar Pradesh^
+1665^Ajnara Elements^^^Noida^Uttar Pradesh^
+1680^Sera Bella^^^Ghaziabad^Uttar Pradesh^
+1682^RG Residency^^^Noida^Uttar Pradesh^
+1683^The Forest Spa^^^Noida^Uttar Pradesh^
+1684^Eldeco Sylvan View^^^Noida^Uttar Pradesh^
+1685^Blossom Greens^^^Noida^Uttar Pradesh^
+1686^Blossom Zest^^^Noida^Uttar Pradesh^
+1687^La Premiere^^^Noida^Uttar Pradesh^
+1691^Gulshan Vivante^^^Noida^Uttar Pradesh^
+1692^Mahagun Marvella^^^Noida^Uttar Pradesh^
+1695^Mahagun Maple^^^Noida^Uttar Pradesh^
+1698^Magun Manor^^^Noida^Uttar Pradesh^
+1699^Mahagun Maestro^^^Noida^Uttar Pradesh^
+1700^Mahagun Morpheus^^^Noida^Uttar Pradesh^
+1702^Paramount Floraville^^^Noida^Uttar Pradesh^
+1709^JM Orchid^^^Noida^Uttar Pradesh^
+1722^Gaur Grandeur 2^^^Noida^Uttar Pradesh^
+1728^Gulmohur Residency^^^Ghaziabad^Uttar Pradesh^
+1729^World Residency^^Shakti Khand 4^Ghaziabad^Uttar Pradesh^
+1730^Vedantam Minaret^^^Ghaziabad^Uttar Pradesh^
+1731^Charms Crescent Service Apartm^^^Ghaziabad^Uttar Pradesh^
+1734^Sarvottam Shri^^^Ghaziabad^Uttar Pradesh^
+1735^Charms Cresent^^^Ghaziabad^Uttar Pradesh^
+1736^Victory Habitat Centre^^^Ghaziabad^Uttar Pradesh^
+1848^Orange County Tower-16^^^Ghaziabad^Uttar Pradesh^
+1849^Ats One Hamlet^^^Noida^Uttar Pradesh^
+1890^Airwil Cube^^^Noida^Uttar Pradesh^
+1891^Exotica Fresco^^^Noida^Uttar Pradesh^
+1892^Wave Livork Studio Apartment^^^Noida^Uttar Pradesh^
+1893^Apex Athena^^^Noida^Uttar Pradesh^
+1894^Apex Athena^^^Noida^Uttar Pradesh^
+1895^Saha Amadeus^^^Noida^Uttar Pradesh^
+1896^Aditya Celebrity Homes^^^Noida^Uttar Pradesh^
+1897^Aditya Urban Casa^^^Noida^Uttar Pradesh^
+1899^Antriksh Golf View^^^Noida^Uttar Pradesh^
+1900^Antriksh Golf View 2^^^Noida^Uttar Pradesh^
+1901^Aims Golf Avenue 2^^^Noida^Uttar Pradesh^
+1902^Aims Grace^^^Noida^Uttar Pradesh^
+1903^Antriksh Kenball 3g^^^Noida^Uttar Pradesh^
+1905^Keltech Imperial Greens^^^Noida^Uttar Pradesh^
+1906^Morpheus Green^Morpheus Green (Antriksh Golf View) ^^Noida^Uttar Pradesh^
+1908^Prateek Edific^^^Noida^Uttar Pradesh^
+1909^Sethi Maxroyal^^^Noida^Uttar Pradesh^
+1910^Horizon Iridia^^^Noida^Uttar Pradesh^
+1911^Lotus 300^^^Noida^Uttar Pradesh^
+1919^ Elixir Divine Meadows^^^Noida^Uttar Pradesh^
+1920^Elixir Parx Laureate^^^Noida^Uttar Pradesh^
+1921^Urbtech Xaviers^^^Noida^Uttar Pradesh^
+1922^Express Zenith^^^Noida^Uttar Pradesh^
+1923^Maxblis Grand Kingston^^^Noida^Uttar Pradesh^
+1924^DPL Flora Heritage^^^Noida^Uttar Pradesh^
+1927^Amrapali Crystal Homes^^^Noida^Uttar Pradesh^
+1928^Unnati The Elites Address^GH-2^^Noida^Uttar Pradesh^
+1929^Supertech Romano^^^Noida^Uttar Pradesh^
+1930^Unitech The Palm^^^Noida^Uttar Pradesh^
+1950^AMR krishna Apartment^^^Ghaziabad^Uttar Pradesh^
+1957^Gaur Sportswood^^^Noida^Uttar Pradesh^
+1958^Gaur Valerio Phase 2^^^Ghaziabad^Uttar Pradesh^
+2212^Oxirich Avenue^^^Ghaziabad^Uttar Pradesh^
+2216^Perfect Shri Ram Residency^^^Ghaziabad^Uttar Pradesh^
+2226^Real Anchors World Residency^^^Ghaziabad^Uttar Pradesh^
+2228^Rudra Pavo Real^^^Ghaziabad^Uttar Pradesh^
+2237^Saya Gold Avenue^^^Ghaziabad^Uttar Pradesh^
+2248^Srijan Vihar Apartments^^^Ghaziabad^Uttar Pradesh^
+2349^ACE Golf Shire^^^^^
+2350^Advetaya Godwin Apartments^^^^^
+2351^Ajnara Belvedere^^^^^
+2352^Ajnara Homes 121^^^^^
+2353^Antriksh Forest^^^^^
+2354^Antriksh Greens^^^^^
+2355^Antriksh IT Residency^^^^^
+2356^Ashiana Homes^^^^^
+2357^Assotech Sandal Suites^^^^^
+2358^Assotech Windsor Greens^^^^^
+2359^ATS Greens 1^^^^^
+2360^ATS Village^^^^^
+2361^AVS Orchard^^^^^
+2362^Bayaweaver Oh My God^^^^^
+2363^Brys Buzz^^^^^
+2364^Dasnac The Jewel Of Noida^^^^^
+2365^Eldeco Aamantran^^^^^
+2366^Eldeco Ananda^^^^^
+2367^Eldeco Edge^^^^^
+2368^Exotica Sports City^^^^^
+2369^Gaur Grandeur^^^^^
+2370^Grihapravesh^^^^^
+2371^Indosam 75^^^^^
+2372^Jaypee Greens Tiara Tower^^^^^
+2373^Jaypee Klassic Shaurya^^^^^
+2374^Logix Gracia^^^^^
+2375^Lotus Arena^^^^^
+2376^Lotus Isle^^^^^
+2377^Lotus Square Residences^^^^^
+2378^Manisha Marvel Homes^^^^^
+2379^Omaxe The Forest^^^^^
+2380^Padmanchal De Villas^^^^^
+2381^Pearls Gateway Towers^^^^^
+2382^Prateek Fedora^^^^^
+2383^Purvanchal Kailash Dham^^^^^
+2384^Purvanchal Silver City^^^^^
+2385^Rani Akriti Shantiniketan^^^^^
+2386^SDS Nri Residency^^^^^
+2387^Shubhkamna Apartments^^^^^
+2388^Sikka The Downtown^^^^^
+2389^Sunshine Solaris^^^^^
+2390^Unitech UGCC Amber^^^^^
+2391^Unitech UGCC Burgundy^^^^^
+2392^Unitech Unihomes 2 G H^^^^^
+2393^Unitech Unihomes Superb^^^^^
+2394^Unnati Fortune Vesta Suites^^^^^
+2395^Victory Crossroads^^^^^

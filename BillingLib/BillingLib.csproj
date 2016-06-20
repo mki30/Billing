@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FD72BB7-9898-481E-9345-CC10A499AF9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BillingLib</RootNamespace>
+    <AssemblyName>BillingLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Billing.cs" />
+    <Compile Include="BillingItem.cs" />
+    <Compile Include="BillPrint.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="Cmn.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Apartment.cs" />
+    <Compile Include="ClientInvoice.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="PurchasePaymentLink.cs" />
+    <Compile Include="MonthlyTotal.cs" />
+    <Compile Include="Salary.cs" />
+    <Compile Include="OrderItem.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="StoreAccess.cs" />
+    <Compile Include="ItemStorePrice.cs" />
+    <Compile Include="ReportDailySale.cs" />
+    <Compile Include="ExpenseLog.cs" />
+    <Compile Include="EmployeeAttendance.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="PurchasePayment.cs" />
+    <Compile Include="Stock.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="ItemMenuLink.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DatabaseCE.cs" />
+    <Compile Include="DBCheck.cs" />
+    <Compile Include="FontInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.cs" />
+    <Compile Include="TableID.cs" />
+    <Compile Include="Tax.cs" />
+    <Compile Include="Terminal.cs" />
+    <Compile Include="TerminalAccess.cs" />
+    <Compile Include="Vendor.cs" />
+    <Compile Include="VendorDue.cs" />
+    <Compile Include="WebData.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

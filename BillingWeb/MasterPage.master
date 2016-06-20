@@ -1,0 +1,333 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="/BootStrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACwElEQVR42qWTWUhUcRTGv//dRmdpHPcxDXFFTCYji3QwInLLxIKEIHuwB6koKUMNEnowomw1tAWiIhSTFJJoM8Olhwi0cSnKNTWX1HEb70yz3LldhcIIs+i8Hs7vfOc75xD8Z5A/JQtcZFvDgrV3IYKzWCzVNpsj/9iwkV8RcJymVZ5qxYPU7AS9Z3L6uN3Mm/mhQd9PlY/lg10jSTlDE6+XBUjFHsFK6m3c9rVB3vv3iR4f68wQRYXIcrCE6ycNVc/V7a86kiVI/W8AqdglUE4ZdkS4h7tm7gYDM5TDPXBM8BAcAjitGvbYpLnm0hqmp3PATxpn9hfAKY4uOZwedkRBCKwZe8F+7QZa2uES6AEHkYFv7Ycywhem9dtMj/JLDdk9o/FkSfc1u4Lk3bE1hZz1aiXmNurBMQKc9U0ATUGWewbW1no4n9aBjdM5eke+kS/99is/AXksfS4nJybPi9Bw9hoxGhAAdXIKrDdugXZhQCUmgouOx3RBLhT+bjDH6/mXJXX3yE0dTbLbBPG8gv2QGqaO0HqrwDAURqYs8LpcDLH8OsQ5HvywCXSgL5yjRtAsDTZzp+lh3p0XpKEobbNttvvCwP3Pm6LdZbSPRg5Wkmyct0KTHgtX3TrMlVVgVYA7WIVsUe1o+wg0J7Pmqw9dM5Dmi3vE2IQYlKUUIYQVoJVzULmycIrAOG9D2OksUDMzMJY3gpKUCQ4Rqkg/OPW6ydrCqmek9mjUmEzl4TP/ro+faZmQa11BaIoCs+COtA2WYxByIgOcUgn7GwNYHw3omCi8v/3E1tLYt2HRxOp0nwbT4OSB9jYwGo5UhKrp1QqOclsw/8exeEf6w00fCkrGCcONXdaOzqn6g71jacudso4iyPKWUVukaTzlNKEk5Q7eLpJpm9PgoJjisxZr04rPtAS4oIS6JAiWf/rGv4nvrmgICZULEkoAAAAASUVORK5CYII=" />
+    <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>--%>
+    <script src="BootStrap/js/bootstrap.min.js"></script>
+    <link href="/css/datepicker.css" rel="stylesheet" />
+    <script src="/js/bootstrap-datepicker.js"></script>
+    <script src="/js/main.js?ver=11"></script>
+    <style type="text/css">
+        body
+        {
+            padding-bottom: 50px;
+        }
+
+        td
+        {
+            padding-top: 0px!important;
+            padding-bottom: 0px!important;
+        }
+
+        .searchresult
+        {
+            z-index: 999;
+            position: absolute;
+            padding: 5px;
+            background-color: #d9edf7;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            display: none;
+            -moz-box-shadow: 0px 0px 2px 2px #bce8f1;
+            -webkit-box-shadow: 0px 0px 2px 2px #bce8f1;
+            box-shadow: 0px 0px 2px 2px #bce8f1;
+            font-size: 13px;
+        }
+
+        .hide
+        {
+            display: none;
+        }
+
+        input:focus
+        {
+            background-color: #F9FBDD;
+        }
+
+        .alnright
+        {
+            text-align: right !important;
+        }
+
+        .highlight
+        {
+            background-color: #FDFDA6 !important;
+        }
+
+        .subtotal
+        {
+            background-color: #F5BCA9;
+        }
+
+        .grandtotal
+        {
+            background-color: #CEE3F6 !important;
+        }
+
+        .auto
+        {
+            background-color: #F3F3A6;
+        }
+
+        .manual
+        {
+            background-color: #C1F1C1;
+        }
+
+        .dialog
+        {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 1000px;
+            height: 50%;
+            padding: 16px;
+             -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            /*border: 5px solid orange;*/
+            background-color: #f8f5f0;
+            z-index: 1002;
+            overflow: auto;
+            /*box-shadow: 10px 10px 5px #888888;*/
+            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+            .dialog > span:first-child
+            {
+                position: absolute;
+                top: 2px;
+                right: 2px;
+                color: #fe4040;
+                cursor: pointer;
+            }
+
+        .black_overlay
+        {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 1001;
+            -moz-opacity: 0.6;
+            opacity: .60;
+            filter: alpha(opacity=60);
+        }
+
+        td, th
+        {
+            padding: 0px 3px;
+        }
+
+        select
+        {
+            padding: 3px 0px;
+        }
+
+        .active a
+        {
+            background-color: #337ab7!important;
+            color: white!important;
+        }
+
+        .tableborder th, .tableborder td
+        {
+            border: 1px solid #E6DBDB;
+        }
+
+        .datatable
+        {
+            width: 100%;
+        }
+
+
+            .datatable th
+            {
+                text-align: center;
+            }
+
+            .datatable td, .datatable > tfoot th
+            {
+                text-align: right;
+            }
+
+            .datatable tr:hover, .table-striped > tbody > tr:hover
+            {
+                background: #e6c7f5;
+            }
+
+        .panel-heading
+        {
+            padding: 5px 0px;
+        }
+
+        .nav > li > a
+        {
+            position: relative;
+            display: block;
+            padding: 5px 8px;
+        }
+
+        .navbar
+        {
+            min-height: 0px;
+            margin-bottom: 5px;
+        }
+
+        .popup
+        {
+            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background-color: white;
+            padding: 20px;
+        }
+
+        #footer
+        {
+            clear: both;
+            position: fixed;
+            z-index: 10;
+            width: 100%;
+            padding: 3px;
+            bottom: 0px;
+        }
+
+        .font-bold
+        {
+            font-weight: bold;
+        }
+
+        /*Boootstrap overritten css*/
+        input, select
+        {
+            color: black;
+            border:1px solid #CAC4C4;
+        }
+
+        .panel input {
+
+            padding:0px 0px 0px 3px;
+        }
+
+        .btn-sm {
+            padding-top:2px;
+            padding-bottom:2px;
+        }
+        a
+        {
+            color: #1479FB;
+        }
+
+            a:hover
+            {
+                color: #325d88;
+            }
+
+        .panel .panel-heading, .panel .panel-title
+        {
+            font-size: 13px;
+        }
+
+        .label,label
+        {
+            font-weight: normal;
+        }
+        /*Boootstrap overritten css*/
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" autocomplete="off">
+        
+        <div style="padding-left:10px;padding-right:10px;">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="navBilling"><a href="/Billing.aspx?reporttype=0&filterdatefrom=<%=DateTime.Now.ToString("dd-MMM-yyyy")%>&filterdateto=<%=DateTime.Now.ToString("dd-MMM-yyyy")%>" title="Daily Sale List">Sale</a></li>
+                        <li class="navItems"><a href="/Items.aspx" title="Item Details Edit">Items</a></li>
+                        <li class="navPurchase"><a href="/Purchase.aspx?reportType=<%=(int)RecordType.Purchase%>&filterdatefrom=<%=DateTime.Today.AddDays(-6).ToString("%d-MMM-yyyy")%>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>" title="Purchase of Items from Vendors">Purchase</a></li>
+                        <li class="navReturn"><a href="/Purchase.aspx?reportType=<%=(int)RecordType.Return%>&filterdatefrom=<%=DateTime.Today.AddDays(-30).ToString("%d-MMM-yyyy")%>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>" title="Returns to Vendors">Return</a></li>
+                        <li class="navDamage"><a href="/Purchase.aspx?reportType=<%=(int)RecordType.Damage%>&filterdatefrom=<%=DateTime.Today.AddDays(-6).ToString("%d-MMM-yyyy")%>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>"" title="Damages">Dmg</a></li>
+                        <li class="navIn"><a href="/Purchase.aspx?reportType=<%=(int)RecordType.TransferIn%>" title="Stock transfer from other stores">In</a></li>
+                        <li class="navOut"><a href="/Purchase.aspx?reportType=<%=(int)RecordType.TransferOut%>" title="Stock transfer to other stores">Out</a></li>
+                        <li class="navCustomer"><a href="/Customer.aspx" title="Customer List">Cust</a></li>
+                        <li class="navPayment"><a href="/Payment.aspx?reporttype=0&filterdatefrom=<%=DateTime.Today.AddDays(-30).ToString("%d-MMM-yyyy") %>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy") %>">Payment</a></li>
+                        <li class="navEmpAttendance"><a href="/EmpAttendance.aspx" title="Attendance">Attend.</a></li>
+                        <li class="navExpenseLog"><a href="/ExpenseLog.aspx" title="Daily Expense">Expense</a></li>
+
+                        <li class="dropdown" id="menuReport" runat="server" visible="false">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="navDailySale"><a href="/Report.aspx?reporttype=<%=(int)ReportType.DailySale %>&filterdatefrom=<%=DateTime.Today.AddDays(-6).ToString("%d-MMM-yyyy") %>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>">Daily Sale</a></li>
+                                <li class="navItemSale"><a href="/Report.aspx?reporttype=<%=(int)ReportType.ItemSale%>&filterdatefrom=<%=DateTime.Today.ToString("%d-MMM-yyyy") %>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>">Item Sale</a></li>
+                                <li class="navItemPurchased"><a href="/Report.aspx?reporttype=<%=(int)ReportType.ItemPurchased%>&filterdatefrom=<%=DateTime.Today.AddDays(-30).ToString("%d-MMM-yyyy") %>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>">Item Purchased</a></li>
+                                <li class="navItemSalePurchased"><a href="/Report.aspx?reporttype=<%=(int)ReportType.ItemSalePurchase%>&filterdatefrom=<%=DateTime.Today.AddDays(-30).ToString("%d-MMM-yyyy") %>&filterdateto=<%=DateTime.Today.ToString("%d-MMM-yyyy")%>">Item Sale Purchase</a></li>
+                                <li class="navPriceMismach"><a href="/Report.aspx?reporttype=<%=(int)ReportType.PriceMismach %>">Price Mismatch</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown" id="menuMasters" runat="server" visible="false">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Masters<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="navEmployee"><a href="/Employee.aspx" title="Employee List">Employee</a></li>
+                                <%--<li class="navUsers"><a id="menuUser" href="/Users.aspx" visible="false">User</a></li>--%>
+                                <li class="navMenu"><a href="/Menu.aspx">Menu</a></li>
+                                <li class="navTax"><a href="/Tax.aspx">Tax</a></li>
+                                <li class="navBrand"><a href="/Brand.aspx">Brand</a></li>
+                                <li class="navVendor"><a href="/Vendor.aspx">Vendor</a></li>
+                                <li class="navBank"><a href="/Bank.aspx">Bank</a></li>
+                            </ul>
+                        </li>
+                        <li class="navAdmin" id="menuAdminRRA" runat="server" visible="false"><a href="/RRAadmin.aspx">Admin</a></li>
+                        <li class="navOrder" id="menuOrder" ><a href="/Order.aspx" title="Online Orders List">Order</a></li>
+                        <li class="navBudget" id="menuBudget" ><a href="/Budget.aspx?filterdatefrom=<%= Cmn.FinStartDate.ToString("%d-MMM-yyyy") %>&filterdateto=<%=Cmn.FinEndDate.ToString("%d-MMM-yyyy")%>" title="Budgetting">Budget</a></li>
+                        <li class="navStockTaking" id="menuStock" ><a href="/StockTakingForm.aspx?filterdatefrom=<%=Cmn.ThisMonthFirst.ToString("%d-MMM-yyyy") %>&filterdateto=<%=Cmn.ThisMonthLast.ToString("%d-MMM-yyyy")%>" title="Stock Taking">Stock</a></li>
+                        <li class="navApartment" id="menuApartment" ><a href="/Apartments.aspx" title="Apartments">Apts</a></li>
+                        <li class="navInvoice" id="menuInvoice" ><a href="/Invoice.aspx" title="Client Invoice">Invoice</a></li>
+                    </ul>
+                       <asp:DropDownList ID="ddCompany" runat="server" onchange="location.href='?CompanyID=' + $(this).val()" Visible="false" ViewStateMode="Disabled" style="display:none;font-size:13px;margin-top:3px;"></asp:DropDownList>
+                       <asp:DropDownList ID="ddStore" runat="server" onchange="location.href='?StoreID=' + $(this).val()" Visible="false" ViewStateMode="Disabled" style="font-size:13px;margin-top:3px;"></asp:DropDownList>
+                        <div class="pull-right" style="margin-top:3px;">
+                            <asp:Literal ID="ltUser" runat="server"></asp:Literal>
+                            <a class="btn btn-sm btn-danger" href="/Login.aspx" id="lnkLogin" runat="server">Login</a>
+                        </div>
+                </div>
+            </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,656 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	[ PRINT ]
+
+	Notes:
+
+	The print style sheet should only contain styles necessary
+	for the printing of printer-friendly pages through the
+	browser print dialogue box.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+@media print {
+    body {
+        background: none
+    }
+
+    a[href]:after {content: none !important;   }
+
+    /* Header & Footer */
+    #cart_search_wrap,
+    #header_cms_menu,
+    #wrapper_tnav,
+    #wrapper_welcome_login,
+    #header_open_area,
+    #product_rr,
+    #footer {
+        display: none;
+    }
+
+    /* shopping cart */
+    #shopping_cart_total,
+    #cart-head,
+    #promo-code,
+    #cart-bod tr td .remove-link,
+    .update-link,
+    #column_left,
+    .db,
+    #compare-item-bod
+    .remove-link,
+    #compare-item-bod
+    .remove-row td,
+    .pc_btn,
+    .add-buttons,
+    .page_title_smtc,
+    .add-buttons a,
+    .item-detail a,
+    .remove-row a,
+    .page_title_smmid input,
+    .remove-link {
+        display: none;
+    }
+
+    img {
+        border: none;
+    }
+
+    #checkout .heading .l img {
+        display: block;
+    }
+
+    #checkout .heading .l {
+        width: 300px;
+    }
+
+    #checkout .heading .r {
+        width: 300px;
+    }
+
+    #checkout .totals .l {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    /* Content section of the cart page includes the list of items in the cart */
+    #cart-bod table {
+        width: 741px;
+        margin-top: 15px;
+        border: 1px solid #000;
+    }
+
+    #cart-bod table tr th {
+        text-align: left;
+        background-color: #505050;
+        color: #fff;
+    }
+
+    #cart-bod tr td input {
+        text-align: center;
+    }
+
+    #cart-bod tr td span {
+        display: block;
+    }
+
+    #cart-bod tbody tr td.start-col .prod-link {
+        display: block;
+        width: 185px;
+    }
+
+    #id-title {
+        width: 350px;
+    }
+
+    .fl {
+        float: left;
+        display: inline;
+    }
+
+    .fr {
+        float: right;
+        display: inline;
+        margin: 10px 8px 0px 0px;
+    }
+
+    .cb {
+        clear: both;
+    }
+
+    .l-price {
+        font-size: 14px;
+    }
+
+    .reg-price {
+        text-decoration: line-through;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+    /*  Compare */
+    #compare-item-bod .compare-title {
+        font-weight: bold;
+    }
+
+    .blue-bullet ul li {
+        list-style-image: url("/assets/site/images/catalog/blue-bullet.gif");
+    }
+
+    /* Store Locator */
+    #map {
+        height: 535px;
+        width: 363px
+    }
+
+    /* Category Page */
+    /* Sub-Category Page */
+    .endeca_refinements {
+        display: none;
+    }
+
+    .item {
+        width: 325px;
+        display: block !important;
+    }
+
+    .description {
+        width: 200px;
+    }
+
+    .wrapper_pagination {
+        float: left;
+    }
+
+    .results_divider {
+        display: block;
+        height: 10px;
+    }
+
+    .results_row {
+        margin: 10px 0px;
+    }
+
+    /* Shipping Method */
+    #checkout .totals .items .item_topper td {
+        vertical-align: top;
+        border: 1px solid red;
+    }
+
+    #tbl_hd_ship_to_0 {
+        text-align: left;
+    }
+
+    .shipping_item_collection th {
+        text-align: left;
+    }
+
+    /* Billing Payment */
+    .items .item_info {
+        width: 50%;
+    }
+
+    #billing_info_wrapper .billing_form {
+        float: none;
+    }
+
+    #billing_info_wrapper td.label {
+        text-align: right;
+        white-space: nowrap;
+    }
+
+    #billing_info_wrapper .billing_form {
+        width: 360px;
+        padding-left: 0px;
+        padding-top: 18px;
+        display: block;
+    }
+
+    #billing_info_wrapper .billing_payment .inner {
+        /*float:none;*/
+        width: 360px;
+        height: 380px;
+        padding-top: 18px;
+        padding-left: 0px;
+        display: block;
+    }
+
+    #billing_info_wrapper .billing_payment .inner td {
+        text-align: left;
+    }
+
+    /* Order Reveiew */
+    .items .btn_continue {
+        display: none;
+    }
+
+    #giftMessage p {
+        margin-top: 0px;
+    }
+
+    .shipping_item_collection td {
+        padding: 5px;
+    }
+
+    .shipping_item_collection th {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .final_order_totals td {
+        padding: 5px;
+    }
+
+    .final_order_totals th {
+        padding: 5px;
+        text-align: left;
+    }
+
+    /* At Stores */
+    #store-sub-con {
+        float: left;
+        clear: left;
+    }
+
+    #story-serv {
+        float: left;
+        clear: left;
+    }
+
+    .ss-item {
+        width: 150px;
+        margin: 5px;
+    }
+
+    #ssc-leftcol {
+        width: 300px;
+    }
+
+    #ssc-rightcol {
+        width: 300px;
+    }
+
+    #store-info-bc {
+        clear: both;
+    }
+
+    .wrapper_cat {
+        margin: 10px;
+    }
+
+    #gift-content {
+        clear: left;
+    }
+
+    /* Product Details */
+    .tab_content_wrapper {
+        margin: 10px;
+    }
+
+    .tab_label {
+        clear: left;
+    }
+
+    .tab_contents {
+        width: 600px;
+    }
+
+    #product_info_tabs {
+        display: none;
+    }
+
+    #product_info_content .tab_content_wrapper {
+        display: block;
+        border-bottom: 1px solid #b7b7b7;
+        margin: 0px;
+    }
+
+    #main-prod-image {
+
+    }
+
+    #main_pic p, #product-name {
+        margin: 0px;
+    }
+
+    #product-print-page {
+        margin: 0px 35px;
+        color: #000000;
+    }
+
+    #product-print-page #product-name {
+        font-size: 20px;
+    }
+
+    #product-print-page a, #product-print-page #product-name, #product-print-page #prod-detail-title, #product-print-page .reduced .sp, #product-print-page .reduced .rp {
+        color: #000000;
+    }
+
+    #product-print-page .prod-info-area .price-info {
+        vertical-align: top;
+    }
+
+    #product-print-page #prod-details-container {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #b7b7b7;
+    }
+
+    #product-print-page #logo_meijer {
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    #product-print-page .sim-prod {
+        float: none;
+        display: block;
+        width: auto;
+        margin-bottom: 45px;
+    }
+
+    #product-print-page #product_info_content, #product-print-page .tab_con_top, #product-print-page .tab_con_btm {
+        width: auto;
+        background: none;
+    }
+
+    #product-print-page .tab_contents ul {
+        padding-left: 15px;
+    }
+
+    #product-print-page .tab_contents li {
+        list-style-image: none;
+    }
+
+    #product-print-page .tab_label {
+        font-size: 16px;
+        font-weight: bold;
+        width: auto;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #product-print-page .tab_con_top {
+        height: auto;
+    }
+
+    #product-print-page .sims-heading {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    #product-print-page #col4 {
+        background: none;
+    }
+
+    #product-print-page #product_rr {
+        border-bottom: 1px solid #b7b7b7;
+        margin-bottom: 13px;
+    }
+
+    #product-print-page #wrapper_breadcrumb {
+        border-top: 1px solid #CCCCCC;
+        margin: 0px;
+        padding: 13px 0;
+    }
+
+    /* Your Account Main */
+    .main_left {
+        width: 350px;
+    }
+
+    .main_left img {
+        width: auto;
+    }
+
+    /* Home Page */
+    /*Shipping*/
+    #checkout .total_topper {
+        display: none;
+    }
+
+    #checkout .items .item_topper_white {
+        display: none;
+    }
+
+    #checkout .item_topper_bottom {
+        display: none;
+    }
+
+    .add_Shipping_Address {
+        border-right: none;
+        border-left: none;
+    }
+
+    #checkout .items table td .gift_message {
+        padding-left: 5px;
+    }
+
+    #checkout .totals .r .inner .subtotals table td {
+        padding-left: 10px;
+    }
+
+    /*Delivery*/
+    #checkout .items .item_topper {
+        display: none;
+    }
+
+    /*Billing*/
+    #checkout .items .item_topper_bottom_grey {
+        display: none;
+    }
+
+    #checkout .items .billing_form {
+        position: absolute;
+        width: 300px;
+    }
+
+    #checkout .items .billing_payment {
+        padding: 0px 0pt 0px 350px;
+    }
+
+    #checkout .items .cb {
+        margin-top: 20px
+    }
+
+    /*Add For login page*/
+    #body-2blue {
+        width: 720px;
+        float: left;
+        display: block;
+    }
+
+    #body-2blue #mid-2b #col-left {
+        width: 330px;
+        float: left;
+    }
+
+    #body-2blue #mid-2b #col-right {
+        width: 332px;
+        float: right;
+    }
+
+    /*Add For order history page*/
+    #oh-body table {
+        width: 700px;
+        text-align: left;
+    }
+
+    .global_table_topper {
+        display: none;
+    }
+
+    /*Add For WishList page*/
+    #wishlist .wishlist_head {
+        display: none;
+    }
+
+    #wishlist .wishlist_foot {
+        display: none;
+    }
+
+    #wishlist .select_all_btm {
+        display: none;
+    }
+
+    #wishlist .btn_email_wishlist {
+        display: none;
+    }
+
+    #wishlist .items_wrapper .wishlist_item table {
+        width: 700px;
+    }
+
+    #wishlist .items_wrapper .wishlist_item td {
+        text-align: left;
+    }
+
+    /*Add For Address Book page*/
+    .global_table_footer img {
+        display: none;
+        border: 1px solid red;
+    }
+
+    .global_table_wrapper .global td {
+        vertical-align: top;
+    }
+
+    .global_table_wrapper .global th {
+        text-align: left;
+    }
+
+    /*Add For Your Account page*/
+    .main_promo_1 {
+        display: none;
+    }
+
+    .main_promo_2 {
+        display: none;
+    }
+
+    /*Add For Payment page*/
+    .items .btn_continue {
+        display: none;
+    }
+
+    #giftMessage p {
+        margin-top: 0px;
+    }
+
+    .shipping_item_collection td {
+        padding: 5px;
+    }
+
+    .shipping_item_collection th {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .final_order_totals td {
+        padding: 5px;
+    }
+
+    .final_order_totals th {
+        padding: 5px;
+        text-align: left;
+    }
+
+    #checkout .items .item_topper {
+        display: none;
+    }
+
+    #checkout .items table.final_order_totals {
+        font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+        font-size: 11px;
+        width: 700px;
+    }
+
+    #checkout table.shipping_item_collection {
+        width: 370px;
+    }
+
+    #checkout {
+        font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+        font-size: 11px;
+    }
+
+    #checkout_subheader .checkout_breadcrumbs {
+        width: 100%;
+        font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+        font-size: 11px;
+        display: inline;
+    }
+
+    #giftMessage {
+        font-family: 'Arial', 'Helvetica', 'Verdana', sans-serif;
+        font-size: 11px;
+        padding-left: 40px;
+    }
+
+    #checkout table.shipping_item_collection td {
+        vertical-align: text-top;
+    }
+
+    #checkout .items table th {
+        padding-left: 0px;
+    }
+
+    #product_info_content {
+        border: none;
+        height: auto;
+        overflow: visible;
+    }
+
+    #wrapper_columns.singleCol {
+        padding: 0px;
+        width: auto;
+    }
+
+    #wrapper_columns {
+        margin: 0px;
+    }
+
+    #prod_price_im, #pwr-rate-wrapper {
+        background: none;
+        border: none;
+    }
+
+    #prod_price_it, #prod_price_ibc {
+        display: none;
+    }
+
+    /* Order Detail */
+
+
+    svg#logo,
+    .container.order-detail-container,
+    .container.order-detail-container #sidebar,
+    .container.order-detail-container #sidebar #hide,
+    .container.order-detail-container #sidebar #hide .hidden-sm {
+        display: block !important;
+    }
+    #header_wrapper a,
+    #nav_wrapper,
+    .icon-meijer_cart,
+    i.icon-meijer_search,
+    #header #header_wrapper button.nav-toggle,
+    #header #header_promo,
+    .container.order-detail-container button#btnShowHideDelivery,
+    button#nav_search_submit,
+    .store-address-panel a,
+    div.footer ul#footerULlinks,
+    div.footer ul#footerULlinks li.dropdown,
+    div.footer div.container,
+    div.footer {
+        display: none !important;
+    }
+    .col-xs-12{width: 90%;}
+
+    /* Order Detail */
+    #header #header_wrapper button.nav-toggle,
+    div.footer ul#footerULlinks,
+    div.footer ul#footerULlinks li.dropdown,
+    div.footer div.container,
+    div.footer{display: none;}
+
+}
